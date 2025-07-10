@@ -14,7 +14,7 @@ export default function ProjectCard({ imageUrl, title }: ProjectCardProps) {
                     alt="JPDS projects"
                     width={800}
                     height={533} 
-                    className="rounded-md object-cover"
+                    className="rounded-sm object-cover"
                 />
             </div>
             <h2 className="mt-2 text-xl md:text-2xl font-semibold tracking-widest text-black uppercase">
