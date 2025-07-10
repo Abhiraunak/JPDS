@@ -17,7 +17,7 @@ export default function ProjectCard({ imageUrl, title }: ProjectCardProps) {
                     className="rounded-sm object-cover"
                 />
             </div>
-            <h2 className="mt-2 text-xl md:text-2xl font-semibold tracking-widest text-black uppercase">
+            <h2 className="mt-2 text-xl md:text-2xl font-sans font-semibold tracking-widest text-black uppercase">
                 {title}
             </h2>
         </div>

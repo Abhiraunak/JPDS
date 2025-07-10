@@ -14,7 +14,7 @@ export function Appbar() {
     };
 
     return (
-        <div className='max-w-screen-xl mx-auto  z-1000 py-4 px-6 flex items-center justify-between border-b border-zinc-500 bg-[#F7F4EDff] opacity-80 rounded-3xl'>
+        <div className='max-w-screen-xl mx-auto  z-1000 py-4 px-6 flex items-center justify-between border-2 border-zinc-500 bg-[#F7F4EDff] opacity-80 rounded-3xl'>
             {/* Logo */}
             <div className="cursor-pointer" onClick={() => handleNavigation("/")}>
                 <Image
