@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Page() {
     return (
         <>
-            <main className="relative w-full h-screen">
+            <main className="relative w-full h-screen select-none">
                 <ImageTitle
                     imageUrl="/ramgarh/header_image.jpg"
                     headerText="Awareness Centre"
@@ -28,17 +28,17 @@ export default function Page() {
 
                     {/* Text Column */}
                     <div className="text-black lg:pl-5 px-4 md:px-0 flex flex-col justify-center max-w-3xl mx-auto lg:max-w-none">
-                        <h1 className="font-sans font-semibold text-4xl md:text-5xl lg:text-6xl tracking-widest text-center">
+                        <h1 className="font-sans font-semibold text-4xl md:text-5xl lg:text-6xl tracking-widest text-center select-none">
                             Awareness Centre
                         </h1>
 
-                        <h2 className="font-italianno pt-6 lg:pt-10 text-2xl md:text-3xl lg:text-4xl text-center">
+                        <h2 className="font-italianno pt-6 lg:pt-10 text-2xl md:text-3xl lg:text-4xl text-center select-none">
                             Ramgarh, a city in Jharkhand, near its capital Ranchi, is a mining, industrial and
                             cultural hub. It is also a Historic landmark and during British rule, it housed several
                             Wood treatment plants for sleepers.
                         </h2>
 
-                        <p className="font-serif tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left">
+                        <p className="font-serif tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
                             After the introduction of modern railroad systems that had
                             concrete-based sleepers, they were abandoned, with heavy machinery and boilers
                             left intact.

@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Page() {
     return (
         <>
-            <main className="relative w-full h-screen">
+            <main className="relative w-full h-screen select-none">
                 <ImageTitle
                     imageUrl="/advantageRelty/project.jpg"
                     headerText="Advantage Realty"
@@ -28,15 +28,15 @@ export default function Page() {
 
                     {/* Text Column */}
                     <div className="text-black lg:pl-5 px-4 md:px-0 flex flex-col justify-center max-w-3xl mx-auto lg:max-w-none">
-                        <h1 className="font-sans font-semibold text-4xl md:text-5xl lg:text-6xl tracking-widest text-center">
+                        <h1 className="font-sans font-semibold text-4xl md:text-5xl lg:text-6xl tracking-widest text-center select-none">
                             Advantage Realty
                         </h1>
 
-                        <h2 className="font-italianno pt-6 lg:pt-10 text-2xl md:text-3xl lg:text-4xl text-center">
+                        <h2 className="font-italianno pt-6 lg:pt-10 text-2xl md:text-3xl lg:text-4xl text-center select-none">
                             In the bustling city of Silchar, the second-largest in Assam, we embarked on a landscape project for Advantage Realty&apos;s upscale housing development.
                         </h2>
 
-                        <p className="font-serif tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left">
+                        <p className="font-serif tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
                             Our task was to design the landscape, gateway, and driveways, catering to the sophisticated tastes of the residents.
                             A minimalist approach with horizontal and vertical planes and a dark, muted color palette was chosen to complement the flat terrain.
                             We combined sleek, modern lines with lush greenery, resulting in a harmonious blend of nature and architecture.
