@@ -22,7 +22,7 @@ export default function ImageTitle({ imageUrl, headerText }: ImageTitleProp) {
             
             {/* Responsive heading with proper contrast */}
             <h1 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 
-                           text-[#ccd5ae] text-2xl md:text-4xl lg:text-5xl font-bold 
+                           text-white text-2xl md:text-4xl lg:text-5xl font-bold 
                            font-sans tracking-wider text-center px-4 w-full max-w-4xl">
                 {headerText}
             </h1>
