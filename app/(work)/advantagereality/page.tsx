@@ -1,5 +1,5 @@
 import ImageTitle from "@/components/ImageTitle";
-import ProjectCard from "@/components/ProjectShowCase";
+import ProjectCard from "@/components/ProjectCard";
 import Image from "next/image";
 
 export default function Page() {

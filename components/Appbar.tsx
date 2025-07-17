@@ -38,7 +38,7 @@ export function Appbar() {
                     </li>
                     <li>
                         <button 
-                            onClick={() => handleNavigation("/")}
+                            onClick={() => handleNavigation("/aboutus")}
                             className="hover:border-b cursor-pointer hover:border-zinc-500"
                         >
                             about
@@ -46,7 +46,7 @@ export function Appbar() {
                     </li>
                     <li>
                         <button 
-                            onClick={() => handleNavigation("/")}
+                            onClick={() => handleNavigation("/contactus")}
                             className="hover:border-b cursor-pointer hover:border-zinc-500"
                         >
                             contact
@@ -54,7 +54,7 @@ export function Appbar() {
                     </li>
                     <li>
                         <button 
-                            onClick={() => handleNavigation("/")}
+                            onClick={() => handleNavigation("/contactus")}
                             className="hover:border-b cursor-pointer hover:border-zinc-500"
                         >
                             socials
@@ -72,7 +72,7 @@ export function Appbar() {
 
             {/* Mobile Navigation */}
             {isOpen && (
-                <div className="md:hidden absolute top-16 left-0 w-full bg-white z-50 py-4 border-b border-zinc-500">
+                <div className="md:hidden absolute top-16 left-0 w-full min-h-screen font-sans bg-white z-50 py-4 border-b border-zinc-500">
                     <ul className="flex flex-col space-y-4 text-black font-semibold tracking-wider px-6">
                         <li>
                             <button 
@@ -84,7 +84,7 @@ export function Appbar() {
                         </li>
                         <li>
                             <button 
-                                onClick={() => handleNavigation("/")}
+                                onClick={() => handleNavigation("/aboutus")}
                                 className="w-full text-left cursor-pointer hover:border-b hover:border-zinc-500 py-2"
                             >
                                 about
@@ -92,7 +92,7 @@ export function Appbar() {
                         </li>
                         <li>
                             <button 
-                                onClick={() => handleNavigation("/")}
+                                onClick={() => handleNavigation("/contactus")}
                                 className="w-full text-left cursor-pointer  hover:border-b hover:border-zinc-500 py-2"
                             >
                                 contact
@@ -100,7 +100,7 @@ export function Appbar() {
                         </li>
                         <li>
                             <button 
-                                onClick={() => handleNavigation("/")}
+                                onClick={() => handleNavigation("/contactus")}
                                 className="w-full text-left cursor-pointer hover:border-b hover:border-zinc-500 py-2"
                             >
                                 socials
