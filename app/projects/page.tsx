@@ -145,7 +145,20 @@ const gallerySlides = [
 export default function Page() {
     return (
         <>
-            <HorizontalGallery slides={gallerySlides} />
+            <div className="w-full  text-black">
+                <div className="relative lg:hidden mt-5">
+                    <h2 className="font-sans font-bold text-5xl md:text-6xl lg:text-7xl tracking-widest text-right select-none text-black/10 lg:text-black/5">
+                        PROJECT
+                    </h2>
+                    <h3 className="font-sans font-bold text-3xl md:text-4xl lg:text-5xl tracking-wide select-none absolute top-0 right-0">
+                        PROJECT
+                    </h3>
+                </div>
+
+                <div className="flex items-center justify-center mt-[12rem] md:mt-20 lg:mt-0">
+                    <HorizontalGallery slides={gallerySlides} />
+                </div>
+            </div>
         </>
     );
 }
