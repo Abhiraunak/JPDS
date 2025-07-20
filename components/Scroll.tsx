@@ -41,7 +41,15 @@ export default function HorizontalGallery({ slides }: HorizontalGalleryProps) {
             e.preventDefault();
             container.scrollBy({ left: scrollAmount, behavior: "smooth" });
             break;
+          case "ArrowRight":
+            e.preventDefault();
+            container.scrollBy({ left: scrollAmount, behavior: "smooth" });
+            break;
           case "ArrowUp":
+            e.preventDefault();
+            container.scrollBy({ left: -scrollAmount, behavior: "smooth" });
+            break;
+          case "ArrowLeft":
             e.preventDefault();
             container.scrollBy({ left: -scrollAmount, behavior: "smooth" });
             break;
