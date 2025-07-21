@@ -32,7 +32,7 @@ export default function Page() {
                            Jalan Bungalow
                         </h1>
 
-                        <h2 className="font-italianno pt-6 lg:pt-10 text-2xl md:text-3xl lg:text-4xl text-center select-none">
+                        <h2 className="font-Roboto pt-6 lg:pt-10 text-2xl md:text-3xl lg:text-4xl text-center select-none">
                             Lucknow, Land of Nawabs and Very cliché speech style had us design a Bungalow at its heart.
                         </h2>
 

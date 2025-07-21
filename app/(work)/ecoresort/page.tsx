@@ -32,7 +32,7 @@ export default function Page() {
                          Ecoresort
                         </h1>
 
-                        <h2 className="font-italianno pt-6 lg:pt-10 text-2xl md:text-3xl lg:text-4xl text-center select-none">
+                        <h2 className="font-Roboto pt-6 lg:pt-10 text-2xl md:text-3xl lg:text-4xl text-center select-none">
                             The eco resort is in Ranchi, Capital city of Jharkhand and in that, landscape was our scope of work with the main challenge 
                             as the level difference near swimming pool area.
                         </h2>

@@ -32,7 +32,7 @@ export default function Page() {
                             Vaniki
                         </h1>
 
-                        <h2 className="font-italianno pt-6 lg:pt-10 text-2xl md:text-3xl lg:text-4xl text-center select-none">
+                        <h2 className="font-Roboto pt-6 lg:pt-10 text-2xl md:text-3xl lg:text-4xl text-center select-none">
                             In Munger, Bihar which is a Part of history of Bihar and has been city of interest for various Mughal and Muslim emperors, 
                             Vaniki is a Building of Forest department.
                         </h2>

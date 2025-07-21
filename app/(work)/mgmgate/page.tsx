@@ -32,7 +32,7 @@ export default function Page() {
                             MGM Gate
                         </h1>
 
-                        <h2 className="font-italianno pt-6 lg:pt-10 text-2xl md:text-3xl lg:text-4xl text-center select-none">
+                        <h2 className="font-Roboto pt-6 lg:pt-10 text-2xl md:text-3xl lg:text-4xl text-center select-none">
                           Renovated MGM hospital of Jamshedpur was in requirement of an entrance gateway that mimicked the modernist looks of the new appearance of their main buildings. 
                         </h2>
 

@@ -32,7 +32,7 @@ export default function Page() {
                            Residence, Nagpur
                         </h1>
 
-                        <h2 className="font-italianno pt-6 lg:pt-10 text-2xl md:text-3xl lg:text-4xl text-center select-none">
+                        <h2 className="font-Roboto pt-6 lg:pt-10 text-2xl md:text-3xl lg:text-4xl text-center select-none">
                     This particular project was quite interesting in terms of its looks as it housed a Garden in front followed by the main Residential Building.
                         </h2>
 

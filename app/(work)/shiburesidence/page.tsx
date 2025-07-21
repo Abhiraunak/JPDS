@@ -32,7 +32,7 @@ export default function Page() {
                          Shibu Soren Residence
                         </h1>
 
-                        <h2 className="font-italianno pt-6 lg:pt-10 text-2xl md:text-3xl lg:text-4xl text-center select-none">
+                        <h2 className="font-Roboto pt-6 lg:pt-10 text-2xl md:text-3xl lg:text-4xl text-center select-none">
                             Design of residence of Jharkhand’s Famous Minister of their era had our main scope in landscaping around the pre-existing building 
                             where the main challenge was creating something that he could enjoy.
                         </h2>

@@ -32,7 +32,7 @@ export default function Page() {
                            Aggrawal Residence
                         </h1>
 
-                        <h2 className="font-italianno pt-6 lg:pt-10 text-2xl md:text-3xl lg:text-4xl text-center select-none">
+                        <h2 className="font-Roboto pt-6 lg:pt-10 text-2xl md:text-3xl lg:text-4xl text-center select-none">
                             Patna is a Mix of Heat and Cold and Gets hot during summers but Shivering cold during December and January 
                             Which is why Aggarwal residence needed to Respond to both of the Factors while also appearing Visually pleasing
                         </h2>

@@ -32,7 +32,7 @@ export default function Page() {
                             Naturopathy Centre
                         </h1>
 
-                        <h2 className="font-italianno pt-6 lg:pt-10 text-2xl md:text-3xl lg:text-4xl text-center select-none">
+                        <h2 className="font-Roboto pt-6 lg:pt-10 text-2xl md:text-3xl lg:text-4xl text-center select-none">
                           Naturopathy Centre of Ranchi housed spaces for Yoga, Meditation and Spa.
                         </h2>
 

@@ -32,7 +32,7 @@ export default function Page() {
                           Mittal Residence
                         </h1>
 
-                        <h2 className="font-italianno pt-6 lg:pt-10 text-2xl md:text-3xl lg:text-4xl text-center select-none">
+                        <h2 className="font-Roboto pt-6 lg:pt-10 text-2xl md:text-3xl lg:text-4xl text-center select-none">
                             Mittal residence was an already constructed building with a Party Hall waiting to be created and connected to the main structure.
                         </h2>
 

@@ -32,7 +32,7 @@ export default function Page() {
                             Minister Quarter Terrace
                         </h1>
 
-                        <h2 className="font-italianno pt-6 lg:pt-10 text-2xl md:text-3xl lg:text-4xl text-center select-none">
+                        <h2 className="font-Roboto pt-6 lg:pt-10 text-2xl md:text-3xl lg:text-4xl text-center select-none">
                             Revamping the Minister Quarter Terrace required creating a multifunctional space 
                             suitable for both private family time and large gatherings. 
                         </h2>

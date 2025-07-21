@@ -28,7 +28,7 @@ export default function Page() {
 
                     {/* Text Column */}
                     <div className="text-black lg:pl-5 px-4 md:px-0 flex flex-col justify-center max-w-3xl mx-auto lg:max-w-none">
-                        <h1 className="font-sans font-semibold text-4xl md:text-5xl lg:text-6xl tracking-widest text-center select-none">
+                        <h1 className="font-Roboto font-semibold text-4xl md:text-5xl lg:text-6xl tracking-widest text-center select-none">
                          Spring Grand
                         </h1>
 

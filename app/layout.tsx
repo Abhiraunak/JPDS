@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Italianno, Roboto } from "next/font/google";
+import { Geist, Geist_Mono,  Roboto } from "next/font/google";
 import "./globals.css";
 import { Appbar } from "@/components/Appbar";
 
@@ -13,11 +13,6 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const italianno = Italianno({
-  subsets: ['latin'],
-  weight: ['400'],
-  variable: '--font-italianno',
-})
 
 const robot = Roboto({
   subsets: ['latin'],
@@ -41,7 +36,7 @@ export default function RootLayout({
         <Appbar />
       </div>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${italianno.variable}  ${robot.variable}  antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable}  ${robot.variable}  antialiased`}
       >
         {children}
       </body>

@@ -32,7 +32,7 @@ export default function Page() {
                            Residence, Gurugram
                         </h1>
 
-                        <h2 className="font-italianno pt-6 lg:pt-10 text-2xl md:text-3xl lg:text-4xl text-center select-none">
+                        <h2 className="font-Roboto pt-6 lg:pt-10 text-2xl md:text-3xl lg:text-4xl text-center select-none">
                            It is an architectural Project in which we chose the simplistic approach and Cost- effective design.
                         </h2>
 

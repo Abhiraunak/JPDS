@@ -32,7 +32,7 @@ export default function Page() {
                            Alwar Residence
                         </h1>
 
-                        <h2 className="font-italianno pt-6 lg:pt-10 text-2xl md:text-3xl lg:text-4xl text-center select-none">
+                        <h2 className="font-Roboto pt-6 lg:pt-10 text-2xl md:text-3xl lg:text-4xl text-center select-none">
                             A very versatile project based in Rajasthan where the house of a business owner was to be renovated in 
                             all three aspects of design viz. Architecture, Interior and Landscape.
                         </h2>

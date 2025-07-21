@@ -32,7 +32,7 @@ export default function Page() {
                             Advantage Realty
                         </h1>
 
-                        <h2 className="font-italianno pt-6 lg:pt-10 text-2xl md:text-3xl lg:text-4xl text-center select-none">
+                        <h2 className="font-Roboto pt-6 lg:pt-10 md:text-3xl lg:text-3xl text-base select-none">
                             In the bustling city of Silchar, the second-largest in Assam, we embarked on a landscape project for Advantage Realty&apos;s upscale housing development.
                         </h2>
 

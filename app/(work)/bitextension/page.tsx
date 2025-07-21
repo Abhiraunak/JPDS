@@ -32,7 +32,7 @@ export default function Page() {
                             BIT Sindri Extension
                         </h1>
 
-                        <h2 className="font-italianno pt-6 lg:pt-10 text-2xl md:text-3xl lg:text-4xl text-center select-none">
+                        <h2 className="font-Roboto pt-6 lg:pt-10 text-2xl md:text-3xl lg:text-4xl text-center select-none">
                             BIT Sindri was an extension project in which Some new departments and building 
                             were added to the previously existing ones where our scope of work was primarily the landscaping.
                         </h2>
