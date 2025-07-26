@@ -9,7 +9,7 @@ const gallerySlides = [
         href: "/advantagereality"
     },
     {
-        src: "/agarwal/header.jpg",
+        src: "",
         caption: "Aggrawal Residence, Patna",
         href: "/agarwalresidence"
     },

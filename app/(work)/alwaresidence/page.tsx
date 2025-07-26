@@ -29,27 +29,27 @@ export default function Page() {
                     {/* Text Column */}
                     <div className="text-black lg:pl-5 px-4 md:px-0 flex flex-col justify-center max-w-3xl mx-auto lg:max-w-none">
                         <h1 className="font-sans font-semibold text-4xl md:text-5xl lg:text-6xl tracking-widest text-center select-none">
-                           Alwar Residence
+                            Alwar Residence
                         </h1>
 
                         <h2 className="font-Roboto pt-6 lg:pt-10 text-2xl md:text-3xl lg:text-4xl text-center select-none">
-                            A very versatile project based in Rajasthan where the house of a business owner was to be renovated in 
+                            A very versatile project based in Rajasthan where the house of a business owner was to be renovated in
                             all three aspects of design viz. Architecture, Interior and Landscape.
                         </h2>
 
                         <p className="font-serif tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
-                            The Challenge was that The Client wanted a Fusion of Classical and Modernist elements, by taking inspirations 
+                            The Challenge was that The Client wanted a Fusion of Classical and Modernist elements, by taking inspirations
                             from ITC grand and adding contemporary touch to it. and The Main Structural area was to be kept mostly undemolished.
                             We approached the design by using Fluted Neo-classical rectangular columns, Projected roofs,
-                            Double heighted Portico and Complimented it with the mix of modernist ceiling style and lightings. 
-                            The color scheme was kept subtle and contrast was created using materials. Choice of plantation was 
-                            to respond to climatic conditions of Rajasthan and use of stones in pavers to create patterned flooring 
+                            Double heighted Portico and Complimented it with the mix of modernist ceiling style and lightings.
+                            The color scheme was kept subtle and contrast was created using materials. Choice of plantation was
+                            to respond to climatic conditions of Rajasthan and use of stones in pavers to create patterned flooring
                             was another Aesthetic modulation
                         </p>
 
                         <div className="pt-5">
                             <h1 className="font-sans font-medium border-l-2 pl-4 text-lg md:text-xl">
-                                Alwar, Rajasthan 
+                                Alwar, Rajasthan
                             </h1>
                         </div>
                     </div>

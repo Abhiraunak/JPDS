@@ -1,7 +1,11 @@
-export default function Page(){
+
+export default function Page() {
     return (
         <>
-            <h1 className="text-6xl mt-[20rem] text-black">A new project showcace page will display here</h1>
+            <section className="mt-10 max-w-6xl mx-auto">
+             
+
+            </section>
         </>
     )
 }
