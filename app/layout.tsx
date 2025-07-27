@@ -18,22 +18,46 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "JPDS",
-  description: "JPDS is a boutique design studio that specializes in high-end Residence, landscape architecture, urban design, public art and environmental planning in pan India with head office in Faridabad.",
-  keywords: ["architecture projects", "interior design", "home renovation","modern home design","top architects near me", "residential architecture design"],
+  description:
+    "JPDS is a boutique design studio specializing in high-end residential architecture, landscape design, urban planning, public art, and environmental solutions. Based in Faridabad, serving clients pan India.",
+  keywords: [
+    "architecture projects",
+    "interior design",
+    "home renovation",
+    "modern home design",
+    "top architects near me",
+    "residential architecture design",
+    "landscape architecture India",
+    "urban design studio",
+    "JPDS Faridabad",
+  ],
   robots: "index, follow",
   openGraph: {
-    title: "Projects | JPDS",
-    description: "Explore all our featured projects including designs, architecture, and renovation solutions by our expert team.",
+    title: "JPDS | Featured Architecture & Design Projects",
+    description:
+      "Explore JPDS's signature architecture and design projects across India — from luxury residences to urban public art and planning solutions.",
     type: "website",
     url: "https://www.jpds.in",
+    siteName: "JPDS",
     images: [
       {
-        url: "https://www.jpds.in/_next/image?url=%2FJPDS.png&w=128&q=75",
+        url: "https://www.jpds.in/JPDS_LOGO.png", // <- updated image
         width: 1200,
         height: 630,
-        alt: "JPDS",
+        alt: "JPDS Logo",
       },
     ],
+    locale: "en_IN",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "JPDS | Boutique Architecture & Design Studio",
+    description:
+      "Discover high-end residential and environmental design solutions from JPDS — based in Faridabad, delivering excellence across India.",
+    images: ["https://www.jpds.in/JPDS_LOGO.png"],
+  },
+  icons: {
+    icon: "/favicon.ico", // optional favicon
   },
 };
 
