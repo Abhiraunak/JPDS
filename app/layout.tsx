@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono,  Roboto } from "next/font/google";
+import { Geist, Geist_Mono, Roboto } from "next/font/google";
 import "./globals.css";
 import { Appbar } from "@/components/Appbar";
 
@@ -32,9 +32,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <div className="pt-3 pl-2 pr-2">
-        <Appbar />
-      </div>
+      <Appbar />
       <body
         className={`${geistSans.variable} ${geistMono.variable}  ${robot.variable}  antialiased`}
       >

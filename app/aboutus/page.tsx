@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function AboutUsPage() {
     return (
-        <div className="min-h-screen bg-[#F7F4ED]">
+        <div className="min-h-screen bg-[#F7F4ED] mt-[5rem]">
             {/* First Section - Unchanged */}
             <section className="relative bg-[#F7F4ED] pt-12 pb-10">
                 <div className="flex flex-col lg:grid lg:grid-cols-2 gap-10 lg:gap-0 px-4 md:px-8">
@@ -11,7 +11,7 @@ export default function AboutUsPage() {
                             ABOUT US
                         </h1>
 
-                        <h2 className="font-italianno pt-6 lg:pt-10 text-2xl md:text-3xl lg:text-4xl text-center select-none">
+                        <h2 className="font-serif pt-6 lg:pt-10 text-3xl text-center select-none">
                             JPDS is a boutique design studio that specializes in high-end Residence, landscape architecture, urban design,
                             public art and environmental planning in pan India with head office in Faridabad.
                         </h2>

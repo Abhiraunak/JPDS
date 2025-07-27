@@ -7,7 +7,7 @@ import { FaPinterest } from "react-icons/fa";
 export default function Page() {
     return (
         <>
-            <section className="relative bg-[#F7F4ED] min-h-screen flex items-center">
+            <section className="relative bg-[#F7F4ED] min-h-screen mt-[5rem] flex items-center">
                 <div className="max-w-7xl mx-auto px-4 md:px-8 w-full">
                     <div className="flex flex-col lg:flex-row items-center gap-12">
                         {/* Contact Info Section */}

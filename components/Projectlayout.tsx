@@ -29,10 +29,10 @@ export default function ProjectLayout() {
                                     alt={project.caption}
                                     height={300}
                                     width={300}
-                                    className="h-72 w-full rounded-xl object-cover transition duration-200 group-hover:blur-[3px]"
+                                    className="h-72 w-full rounded-xl object-cover transition duration-200 group-hover:scale-[1.02]"
                                 />
                             </Link>
-                            <h2 className="z-20 font-bold tracking-tight text-neutral-800 mt-5">{project.caption}</h2>
+                            <h2 className="z-20 font-bold tracking-tight text-neutral-800 select-none mt-5">{project.caption}</h2>
                         </motion.div>
                     ))}
                 </div>
