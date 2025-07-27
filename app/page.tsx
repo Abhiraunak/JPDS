@@ -1,5 +1,3 @@
-
-
 import { BackgroundVideo } from '@/components/BackgroundVideo';
 import Head from 'next/head';
 import Link from 'next/link';
@@ -13,22 +11,19 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
-      {/* Hero Section - Fixed Structure */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      {/* Hero Section - Fixed centering */}
+     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16 md:pt-0">
         {/* Video Background */}
         <div className="absolute inset-0 z-0">
           <BackgroundVideo />
         </div>
 
-        {/* Dark Overlay for text contrast */}
-        <div className="absolute inset-0 bg-black opacity-50 z-1"></div>
-
-        {/* Content Container */}
-        <div className="relative z-10 max-w-4xl px-6 text-center mt-10">
-          <h1 className="text-5xl font-bold tracking-wide  lg:text-8xl mb-4">
+        {/* Content Container - Removed top margin */}
+        <div className="relative z-10 max-w-4xl px-6 text-center">
+          <h1 className="text-5xl font-bold tracking-wide lg:text-8xl mb-4">
             JPDS
           </h1>
-          <div className="max-w-3xl mb-12">
+          <div className="max-w-3xl mx-auto mb-12">
             <p className="text-lg md:text-xl leading-relaxed">
               Crafting Timeless Spaces: High-End Residences, Landscape Architecture, 
               Urban Design, Public Art, and Environmental Planning Across India.
@@ -44,7 +39,7 @@ export default function Home() {
           {/* Call-to-Action Button */}
           <Link href="/projects" passHref>
             <button
-              className="mt-2 rounded-full bg-neutral-500 px-8 py-4 text-lg font-semibold transition-all duration-300 hover:bg-neutral-700 hover:shadow-lg hover:scale-105 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:ring-opacity-75"
+              className="rounded-full bg-neutral-500 px-8 py-4 text-lg font-semibold transition-all duration-300 hover:bg-neutral-700 hover:shadow-lg hover:scale-105 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:ring-opacity-75"
               aria-label="View our portfolio"
             >
               Explore Our Portfolio

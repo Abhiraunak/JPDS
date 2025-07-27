@@ -95,10 +95,10 @@ export function Appbar() {
             </Container>
 
             {/* Mobile Logo */}
-            <div className="md:hidden flex items-center justify-between px-4 py-2">
+            <div className="md:hidden fixed top-0 left-0 right-0 w-full flex items-center bg-white z-50 justify-between px-4 py-2 border-b border-gray-200">
                 <div>
-                    <Link href={"/"}>
-                        <Image src={"/JPDS.png"} height={60} width={60} alt="logo" />
+                    <Link href="/">
+                        <Image src="/JPDS.png" height={60} width={60} alt="logo" />
                     </Link>
                 </div>
                 <div className="text-black">
