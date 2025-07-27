@@ -16,5 +16,5 @@
 - **Framer Motion:** Animation library for React to create smooth, expressive transitions.
 - **React:** Component-based architecture underlying the UI.
   
-Open [ https://jpds.vercel.app/ ] to view the project in your browser. 
+Open [ (https://www.jpds.in/) ] to view the project in your browser. 
 
