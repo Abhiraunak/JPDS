@@ -37,7 +37,7 @@ export default function Page() {
                             where the main challenge was creating something that he could enjoy.
                         </h2>
 
-                        <p className="font-serif tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
+                        <p className="font-Inter tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
                            Mostly in the evening despite the age factors. Thus, accessible design with ambulatory measures was a key while also, 
                            there needed to be ample of state f the art elements to suit the taste of client. We created very small level 
                            differences everywhere with straight paths ending to some focal point elements like water feature, fountains, 
@@ -56,19 +56,19 @@ export default function Page() {
             </section>
 
             <section className="flex flex-col items-center gap-5 bg-[#F7F4EDff] px-4 pb-20">
-                <ProjectCard imageUrl="/shorenhouse/house1.jpg" title="" />
-                <ProjectCard imageUrl="/shorenhouse/house2.jpg" title="" />
-                <ProjectCard imageUrl="/shorenhouse/house3.jpg" title="" />
-                <ProjectCard imageUrl="/shorenhouse/house4.jpg" title="" />
-                <ProjectCard imageUrl="/shorenhouse/house5.jpg" title="" />
-                <ProjectCard imageUrl="/shorenhouse/house6.jpg" title="" />
-                <ProjectCard imageUrl="/shorenhouse/house7.jpg" title="" />
-                <ProjectCard imageUrl="/shorenhouse/house8.jpg" title="" />
-                <ProjectCard imageUrl="/shorenhouse/house9.jpg" title="" />
-                <ProjectCard imageUrl="/shorenhouse/house10.jpg" title="" />
-                <ProjectCard imageUrl="/shorenhouse/house11.jpg" title="" />
-                <ProjectCard imageUrl="/shorenhouse/house12.jpg" title="" />
-                <ProjectCard imageUrl="/shorenhouse/house13.jpg" title="" />
+                <ProjectCard imageUrl="/shorenhouse/house1.jpg" />
+                <ProjectCard imageUrl="/shorenhouse/house2.jpg" />
+                <ProjectCard imageUrl="/shorenhouse/house3.jpg" />
+                <ProjectCard imageUrl="/shorenhouse/house4.jpg" />
+                <ProjectCard imageUrl="/shorenhouse/house5.jpg" />
+                <ProjectCard imageUrl="/shorenhouse/house6.jpg" />
+                <ProjectCard imageUrl="/shorenhouse/house7.jpg" />
+                <ProjectCard imageUrl="/shorenhouse/house8.jpg" />
+                <ProjectCard imageUrl="/shorenhouse/house9.jpg" />
+                <ProjectCard imageUrl="/shorenhouse/house10.jpg" />
+                <ProjectCard imageUrl="/shorenhouse/house11.jpg" />
+                <ProjectCard imageUrl="/shorenhouse/house12.jpg" />
+                <ProjectCard imageUrl="/shorenhouse/house13.jpg" />
                 
             </section>
         </>

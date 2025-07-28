@@ -37,7 +37,7 @@ export default function Page() {
                             a way that it has adequate seating space for the residents.
                         </h2>
 
-                        <p className="font-serif tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
+                        <p className="font-Inter tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
                           To do this we used waterproofed and well drained Planters on the RCC slab to create greenery, stepped 
                           circular seating for community spaces, seats here and there for everyone and Concentric patterns 
                           filled with altercations of Plants and paver blocks. We landscaped the whole area with trees and 
@@ -54,16 +54,16 @@ export default function Page() {
             </section>
 
             <section className="flex flex-col items-center gap-5 bg-[#F7F4EDff] px-4 pb-20">
-                <ProjectCard imageUrl="/fogla/fogla1.jpg" title="" />
-                <ProjectCard imageUrl="/fogla/fogla2.jpg" title="" />
-                <ProjectCard imageUrl="/fogla/fogla3.jpg" title="" />
-                <ProjectCard imageUrl="/fogla/fogla4.jpg" title="" />
-                <ProjectCard imageUrl="/fogla/fogla5.jpg" title="" />
-                <ProjectCard imageUrl="/fogla/fogla6.jpg" title="" />
-                <ProjectCard imageUrl="/fogla/fogla7.jpg" title="" />
-                <ProjectCard imageUrl="/fogla/fogla8.jpg" title="" />
-                <ProjectCard imageUrl="/fogla/fogla9.jpg" title="" />
-                <ProjectCard imageUrl="/fogla/fogla10.jpg" title="" />
+                <ProjectCard imageUrl="/fogla/fogla1.jpg" />
+                <ProjectCard imageUrl="/fogla/fogla2.jpg" />
+                <ProjectCard imageUrl="/fogla/fogla3.jpg" />
+                <ProjectCard imageUrl="/fogla/fogla4.jpg" />
+                <ProjectCard imageUrl="/fogla/fogla5.jpg" />
+                <ProjectCard imageUrl="/fogla/fogla6.jpg" />
+                <ProjectCard imageUrl="/fogla/fogla7.jpg" />
+                <ProjectCard imageUrl="/fogla/fogla8.jpg" />
+                <ProjectCard imageUrl="/fogla/fogla9.jpg" />
+                <ProjectCard imageUrl="/fogla/fogla10.jpg" />
             </section>
         </>
     )

@@ -38,7 +38,7 @@ export default function Page() {
                             Wood treatment plants for sleepers.
                         </h2>
 
-                        <p className="font-serif tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
+                        <p className="font-Inter tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
                             After the introduction of modern railroad systems that had
                             concrete-based sleepers, they were abandoned, with heavy machinery and boilers
                             left intact.
@@ -63,25 +63,25 @@ export default function Page() {
             </section>
 
             <section className="flex flex-col items-center gap-5 bg-[#F7F4EDff] px-4 pb-20">
-                <ProjectCard imageUrl="/ramgarh/ramgarh1.jpg" title="" />
-                <ProjectCard imageUrl="/ramgarh/ramgarh2.jpg" title="" />
-                <ProjectCard imageUrl="/ramgarh/ramgarh3.jpg" title="" />
-                <ProjectCard imageUrl="/ramgarh/ramgarh4.jpg" title="" />
-                <ProjectCard imageUrl="/ramgarh/ramgarh5.jpg" title="" />
-                <ProjectCard imageUrl="/ramgarh/ramgarh6.jpg" title="" />
-                <ProjectCard imageUrl="/ramgarh/ramgarh7.jpg" title="" />
-                <ProjectCard imageUrl="/ramgarh/ramgarh8.jpg" title="" />
-                <ProjectCard imageUrl="/ramgarh/ramgarh9.jpg" title="" />
-                <ProjectCard imageUrl="/ramgarh/ramgarh10.jpg" title="" />
-                <ProjectCard imageUrl="/ramgarh/ramgarh11.jpg" title="" />
-                <ProjectCard imageUrl="/ramgarh/ramgarh12.jpg" title="" />
-                <ProjectCard imageUrl="/ramgarh/ramgarh13.jpg" title="" />
-                <ProjectCard imageUrl="/ramgarh/ramgarh14.jpg" title="" />
-                <ProjectCard imageUrl="/ramgarh/ramgarh15.jpg" title="" />
-                <ProjectCard imageUrl="/ramgarh/ramgarh16.jpg" title="" />
-                <ProjectCard imageUrl="/ramgarh/ramgarh17.jpg" title="" />
-                <ProjectCard imageUrl="/ramgarh/ramgarh18.jpg" title="" />
-                <ProjectCard imageUrl="/ramgarh/ramgarh19.jpg" title="" />  
+                <ProjectCard imageUrl="/ramgarh/ramgarh1.jpg"  />
+                <ProjectCard imageUrl="/ramgarh/ramgarh2.jpg"  />
+                <ProjectCard imageUrl="/ramgarh/ramgarh3.jpg"  />
+                <ProjectCard imageUrl="/ramgarh/ramgarh4.jpg"  />
+                <ProjectCard imageUrl="/ramgarh/ramgarh5.jpg"  />
+                <ProjectCard imageUrl="/ramgarh/ramgarh6.jpg"  />
+                <ProjectCard imageUrl="/ramgarh/ramgarh7.jpg"  />
+                <ProjectCard imageUrl="/ramgarh/ramgarh8.jpg"  />
+                <ProjectCard imageUrl="/ramgarh/ramgarh9.jpg"  />
+                <ProjectCard imageUrl="/ramgarh/ramgarh10.jpg" />
+                <ProjectCard imageUrl="/ramgarh/ramgarh11.jpg" />
+                <ProjectCard imageUrl="/ramgarh/ramgarh12.jpg" />
+                <ProjectCard imageUrl="/ramgarh/ramgarh13.jpg" />
+                <ProjectCard imageUrl="/ramgarh/ramgarh14.jpg" />
+                <ProjectCard imageUrl="/ramgarh/ramgarh15.jpg" />
+                <ProjectCard imageUrl="/ramgarh/ramgarh16.jpg" />
+                <ProjectCard imageUrl="/ramgarh/ramgarh17.jpg" />
+                <ProjectCard imageUrl="/ramgarh/ramgarh18.jpg" />
+                <ProjectCard imageUrl="/ramgarh/ramgarh19.jpg" />  
             </section>
         </>
     )

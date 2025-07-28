@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     siteName: "JPDS",
     images: [
       {
-        url: "https://www.jpds.in/JPDS_LOGO.png", // <- updated image
+        url: "https://www.jpds.in/JPDS2.png", // <- updated image
         width: 1200,
         height: 630,
         alt: "JPDS Logo",

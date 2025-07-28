@@ -36,7 +36,7 @@ export default function Page() {
                             The corner side plot was to be developed as a Convention Centre as a Competition Project and the form at play was according to site.
                         </h2>
 
-                        <p className="font-serif tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
+                        <p className="font-Inter tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
                             The minimalistic approach has a distinct form to bring out more spaces for visual appeal by creation of 
                             interesting spaces into the small pockets thus formed in-between, in both exterior and interior instead 
                             of appearing as a monotonous rectangular block. Very less use of material like Glass and Tiles with metal 
@@ -53,20 +53,20 @@ export default function Page() {
             </section>
 
             <section className="flex flex-col items-center gap-5 bg-[#F7F4EDff] px-4 pb-20">
-                <ProjectCard imageUrl="/conventionCenter/convention1.jpg" title="" />
-                <ProjectCard imageUrl="/conventionCenter/convention2.jpg" title="" />
-                <ProjectCard imageUrl="/conventionCenter/convention3.jpg" title="" />
-                <ProjectCard imageUrl="/conventionCenter/convention4.jpg" title="" />
-                <ProjectCard imageUrl="/conventionCenter/convention5.jpg" title="" />
-                <ProjectCard imageUrl="/conventionCenter/convention6.jpg" title="" />
-                <ProjectCard imageUrl="/conventionCenter/convention7.jpg" title="" />
-                <ProjectCard imageUrl="/conventionCenter/convention8.jpg" title="" />
-                <ProjectCard imageUrl="/conventionCenter/convention9.jpg" title="" />
-                <ProjectCard imageUrl="/conventionCenter/convention10.jpg" title="" /> 
-                <ProjectCard imageUrl="/conventionCenter/convention11.jpg" title="" /> 
-                <ProjectCard imageUrl="/conventionCenter/convention12.jpg" title="" /> 
-                <ProjectCard imageUrl="/conventionCenter/convention13.jpg" title="" />
-                <ProjectCard imageUrl="/conventionCenter/convention14.jpg" title="" />
+                <ProjectCard imageUrl="/conventionCenter/convention1.jpg" />
+                <ProjectCard imageUrl="/conventionCenter/convention2.jpg" />
+                <ProjectCard imageUrl="/conventionCenter/convention3.jpg" />
+                <ProjectCard imageUrl="/conventionCenter/convention4.jpg" />
+                <ProjectCard imageUrl="/conventionCenter/convention5.jpg" />
+                <ProjectCard imageUrl="/conventionCenter/convention6.jpg" />
+                <ProjectCard imageUrl="/conventionCenter/convention7.jpg" />
+                <ProjectCard imageUrl="/conventionCenter/convention8.jpg" />
+                <ProjectCard imageUrl="/conventionCenter/convention9.jpg" />
+                <ProjectCard imageUrl="/conventionCenter/convention10.jpg"/> 
+                <ProjectCard imageUrl="/conventionCenter/convention11.jpg"/> 
+                <ProjectCard imageUrl="/conventionCenter/convention12.jpg"/> 
+                <ProjectCard imageUrl="/conventionCenter/convention13.jpg"/>
+                <ProjectCard imageUrl="/conventionCenter/convention14.jpg"/>
                  
             </section>
         </>

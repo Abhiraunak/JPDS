@@ -37,7 +37,7 @@ export default function Page() {
                             were added to the previously existing ones where our scope of work was primarily the landscaping.
                         </h2>
 
-                        <p className="font-serif tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
+                        <p className="font-Inter tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
                             The goal was to Harmonize the design language with the previous so that the overall appearance looks 
                             contemporary to the existing spaces. Earlier lack of adequate parking spaces was covered in this region 
                             by designing dedicated area for that and mindfully choosing plantation that are evergreen and less 
@@ -56,19 +56,19 @@ export default function Page() {
             </section>
 
             <section className="flex flex-col items-center gap-5 bg-[#F7F4EDff] px-4 pb-20">
-                <ProjectCard imageUrl="/bitSindhriExtension/header.jpg" title="" />
-                <ProjectCard imageUrl="/bitSindhriExtension/sindri1.jpg" title="" />
-                <ProjectCard imageUrl="/bitSindhriExtension/sindri2.jpg" title="" />
-                <ProjectCard imageUrl="/bitSindhriExtension/sindri3.jpg" title="" />
-                <ProjectCard imageUrl="/bitSindhriExtension/sindri4.jpg" title="" />
-                <ProjectCard imageUrl="/bitSindhriExtension/sindri5.jpg" title="" />
-                <ProjectCard imageUrl="/bitSindhriExtension/sindri6.jpg" title="" />
-                <ProjectCard imageUrl="/bitSindhriExtension/sindri7.jpg" title="" />
-                <ProjectCard imageUrl="/bitSindhriExtension/sindri8.jpg" title="" />
-                <ProjectCard imageUrl="/bitSindhriExtension/sindri9.jpg" title="" />
-                <ProjectCard imageUrl="/bitSindhriExtension/sindri10.jpg" title="" />
-                <ProjectCard imageUrl="/bitSindhriExtension/sindri11.jpg" title="" />
-                <ProjectCard imageUrl="/bitSindhriExtension/sindri12.jpg" title="" />
+                <ProjectCard imageUrl="/bitSindhriExtension/header.jpg" />
+                <ProjectCard imageUrl="/bitSindhriExtension/sindri1.jpg" />
+                <ProjectCard imageUrl="/bitSindhriExtension/sindri2.jpg" />
+                <ProjectCard imageUrl="/bitSindhriExtension/sindri3.jpg" />
+                <ProjectCard imageUrl="/bitSindhriExtension/sindri4.jpg" />
+                <ProjectCard imageUrl="/bitSindhriExtension/sindri5.jpg" />
+                <ProjectCard imageUrl="/bitSindhriExtension/sindri6.jpg" />
+                <ProjectCard imageUrl="/bitSindhriExtension/sindri7.jpg" />
+                <ProjectCard imageUrl="/bitSindhriExtension/sindri8.jpg" />
+                <ProjectCard imageUrl="/bitSindhriExtension/sindri9.jpg" />
+                <ProjectCard imageUrl="/bitSindhriExtension/sindri10.jpg"/>
+                <ProjectCard imageUrl="/bitSindhriExtension/sindri11.jpg"/>
+                <ProjectCard imageUrl="/bitSindhriExtension/sindri12.jpg"/>
                
             </section>
         </>

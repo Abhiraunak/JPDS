@@ -36,7 +36,7 @@ export default function Page() {
                           Designed in collaboration with Jharkhand Tourism Department, 
                         </h2>
 
-                        <p className="font-serif tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
+                        <p className="font-Inter tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
                             Wayside amenities is a unique approach of temporary stay for the travelers of the state that need a 
                             space to sit and relax in between their long routes. It houses a modular space housing parking areas, 
                             a Cafeteria with Sanitary requirements, Play areas, outdoor seating areas as well as Some landscaped 
@@ -44,27 +44,21 @@ export default function Page() {
                             Wayside amenities is designed to be repeated across the state with same coherent design to embark 
                             it’s identity and serve the people in regions where the Long-route travelers are frequent.
                         </p>
-
-                        {/* <div className="pt-5">
-                            <h1 className="font-sans font-medium border-l-2 pl-4 text-lg md:text-xl">
-                                Khunti
-                            </h1>
-                        </div> */}
                     </div>
                 </div>
             </section>
 
             <section className="flex flex-col items-center gap-5 bg-[#F7F4EDff] px-4 pb-20">
-                <ProjectCard imageUrl="/waysideAmenties/way1.jpg" title="" />
-                <ProjectCard imageUrl="/waysideAmenties/way2.jpg" title="" />
-                <ProjectCard imageUrl="/waysideAmenties/way3.jpg" title="" />
-                <ProjectCard imageUrl="/waysideAmenties/way4.jpg" title="" />
-                <ProjectCard imageUrl="/waysideAmenties/way5.jpg" title="" />
-                <ProjectCard imageUrl="/waysideAmenties/way6.jpg" title="" />
-                <ProjectCard imageUrl="/waysideAmenties/way7.jpg" title="" />
-                <ProjectCard imageUrl="/waysideAmenties/way8.jpg" title="" />
-                <ProjectCard imageUrl="/waysideAmenties/way9.jpg" title="" />
-                <ProjectCard imageUrl="/waysideAmenties/way10.jpg" title="" />
+                <ProjectCard imageUrl="/waysideAmenties/way1.jpg" />
+                <ProjectCard imageUrl="/waysideAmenties/way2.jpg" />
+                <ProjectCard imageUrl="/waysideAmenties/way3.jpg" />
+                <ProjectCard imageUrl="/waysideAmenties/way4.jpg" />
+                <ProjectCard imageUrl="/waysideAmenties/way5.jpg" />
+                <ProjectCard imageUrl="/waysideAmenties/way6.jpg" />
+                <ProjectCard imageUrl="/waysideAmenties/way7.jpg" />
+                <ProjectCard imageUrl="/waysideAmenties/way8.jpg" />
+                <ProjectCard imageUrl="/waysideAmenties/way9.jpg" />
+                <ProjectCard imageUrl="/waysideAmenties/way10.jpg" />
                  
             </section>
         </>

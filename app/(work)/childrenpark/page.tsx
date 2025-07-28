@@ -36,7 +36,7 @@ export default function Page() {
                            The park to be designed was having a hilly location with stones in the middle portion abutted by plain land on either side of it. 
                         </h2>
 
-                        <p className="font-serif tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
+                        <p className="font-Inter tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
                             we designed such that we could achieve two big lawns and then we divided the space into smaller segregations for each age-group.
                             We used Locally available materials such as stones so that it can merge into it’s natural landscape while we retained the existent stones.
                             Whole Park has OATs, Kiosks for sitting, Kid’s play area, outdoor gym, parking and toilet area etc. to enhance the functionality of the visually pleasing looks.
@@ -52,15 +52,15 @@ export default function Page() {
             </section>
 
             <section className="flex flex-col items-center gap-5 bg-[#F7F4EDff] px-4 pb-20">
-                <ProjectCard imageUrl="/park/amrutpark1.jpg" title="" />
-                <ProjectCard imageUrl="/park/amrutpark2.jpg" title="" />
-                <ProjectCard imageUrl="/park/amrutpark3.jpg" title="" />
-                <ProjectCard imageUrl="/park/amrutpark4.jpg" title="" />
-                <ProjectCard imageUrl="/park/amrutpark5.jpg" title="" />
-                <ProjectCard imageUrl="/park/amrutpark6.jpg" title="" />
-                <ProjectCard imageUrl="/park/amrutpark7.jpg" title="" />
-                <ProjectCard imageUrl="/park/amrutpark8.jpg" title="" />
-                <ProjectCard imageUrl="/park/amrutpark9.jpg" title="" />
+                <ProjectCard imageUrl="/park/amrutpark1.jpg" />
+                <ProjectCard imageUrl="/park/amrutpark2.jpg" />
+                <ProjectCard imageUrl="/park/amrutpark3.jpg" />
+                <ProjectCard imageUrl="/park/amrutpark4.jpg" />
+                <ProjectCard imageUrl="/park/amrutpark5.jpg" />
+                <ProjectCard imageUrl="/park/amrutpark6.jpg" />
+                <ProjectCard imageUrl="/park/amrutpark7.jpg" />
+                <ProjectCard imageUrl="/park/amrutpark8.jpg" />
+                <ProjectCard imageUrl="/park/amrutpark9.jpg" />
                  
             </section>
         </>

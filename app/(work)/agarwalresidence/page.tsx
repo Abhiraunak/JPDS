@@ -37,7 +37,7 @@ export default function Page() {
                             Which is why Aggarwal residence needed to Respond to both of the Factors while also appearing Visually pleasing
                         </h2>
 
-                        <p className="font-serif tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
+                        <p className="font-Inter tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
                             We Used Double heighted overhang projections, and Mezzanine floors To cut the summer sun by sun shading 
                             and allow winter sun at lower solar angles. Design housed plantation on ground, balconies and Terrace 
                             to cut the heat, freshen up the air and add greenery to the Façade. Elements like Framed members and 
@@ -54,11 +54,11 @@ export default function Page() {
             </section>
 
             <section className="flex flex-col items-center gap-5 bg-[#F7F4EDff] px-4 pb-20">
-                <ProjectCard imageUrl="/agarwal/house1.jpg" title="" />
-                <ProjectCard imageUrl="/agarwal/house2.jpg" title="" />
-                <ProjectCard imageUrl="/agarwal/house3.jpg" title="" />
-                <ProjectCard imageUrl="/agarwal/house4.jpg" title="" />
-                <ProjectCard imageUrl="/agarwal/house5.jpg" title="" />
+                <ProjectCard imageUrl="/agarwal/house1.jpg" />
+                <ProjectCard imageUrl="/agarwal/house2.jpg" />
+                <ProjectCard imageUrl="/agarwal/house3.jpg" />
+                <ProjectCard imageUrl="/agarwal/house4.jpg" />
+                <ProjectCard imageUrl="/agarwal/house5.jpg" />
             </section>
         </>
     )

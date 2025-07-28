@@ -37,7 +37,7 @@ export default function Page() {
                             all three aspects of design viz. Architecture, Interior and Landscape.
                         </h2>
 
-                        <p className="font-serif tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
+                        <p className="font-Inter tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
                             The Challenge was that The Client wanted a Fusion of Classical and Modernist elements, by taking inspirations
                             from ITC grand and adding contemporary touch to it. and The Main Structural area was to be kept mostly undemolished.
                             We approached the design by using Fluted Neo-classical rectangular columns, Projected roofs,
@@ -57,11 +57,11 @@ export default function Page() {
             </section>
 
             <section className="flex flex-col items-center gap-5 bg-[#F7F4EDff] px-4 pb-20">
-                <ProjectCard imageUrl="/alwar/house1.jpg" title="" />
-                <ProjectCard imageUrl="/alwar/house2.jpg" title="" />
-                <ProjectCard imageUrl="/alwar/house3.jpg" title="" />
-                <ProjectCard imageUrl="/alwar/house4.jpg" title="" />
-                <ProjectCard imageUrl="/alwar/house5.jpg" title="" />
+                <ProjectCard imageUrl="/alwar/house1.jpg"  />
+                <ProjectCard imageUrl="/alwar/house2.jpg"  />
+                <ProjectCard imageUrl="/alwar/house3.jpg" />
+                <ProjectCard imageUrl="/alwar/house4.jpg"  />
+                <ProjectCard imageUrl="/alwar/house5.jpg"  />
             </section>
         </>
     )

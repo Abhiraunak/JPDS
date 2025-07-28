@@ -36,7 +36,7 @@ export default function Page() {
                             Mittal residence was an already constructed building with a Party Hall waiting to be created and connected to the main structure.
                         </h2>
 
-                        <p className="font-serif tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
+                        <p className="font-Inter tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
                            The scope of work was the Lawn as big as the building footprint and the space reserved for party hall.
                            Thus by designing Parking space, renovating the lawn, creating the walkways and air conditioned Gazebo, 
                            we revamped the Open space and used mounds and palm trees, hedges and shrubs etc . 
@@ -53,26 +53,26 @@ export default function Page() {
             </section>
 
             <section className="flex flex-col items-center gap-5 bg-[#F7F4EDff] px-4 pb-20">
-                <ProjectCard imageUrl="/mittal/house1.jpg" title="" />
-                <ProjectCard imageUrl="/mittal/house2.jpg" title="" />
-                <ProjectCard imageUrl="/mittal/house3.jpg" title="" />
-                <ProjectCard imageUrl="/mittal/house4.jpg" title="" />
-                <ProjectCard imageUrl="/mittal/house5.jpg" title="" />
-                <ProjectCard imageUrl="/mittal/house6.jpg" title="" />
-                <ProjectCard imageUrl="/mittal/house7.jpg" title="" />
-                <ProjectCard imageUrl="/mittal/house8.jpg" title="" />
-                <ProjectCard imageUrl="/mittal/house9.jpg" title="" />
-                <ProjectCard imageUrl="/mittal/house10.jpg" title="" />
-                <ProjectCard imageUrl="/mittal/house11.jpg" title="" />
-                <ProjectCard imageUrl="/mittal/house12.jpg" title="" />
-                <ProjectCard imageUrl="/mittal/house13.jpg" title="" />
-                <ProjectCard imageUrl="/mittal/house14.jpg" title="" />
-                <ProjectCard imageUrl="/mittal/house15.jpg" title="" />
-                <ProjectCard imageUrl="/mittal/house16.jpg" title="" />
-                <ProjectCard imageUrl="/mittal/house17.jpg" title="" />
-                <ProjectCard imageUrl="/mittal/house18.jpg" title="" />
-                <ProjectCard imageUrl="/mittal/house19.jpg" title="" />
-                <ProjectCard imageUrl="/mittal/house20.jpg" title="" />
+                <ProjectCard imageUrl="/mittal/house1.jpg" />
+                <ProjectCard imageUrl="/mittal/house2.jpg" />
+                <ProjectCard imageUrl="/mittal/house3.jpg" />
+                <ProjectCard imageUrl="/mittal/house4.jpg" />
+                <ProjectCard imageUrl="/mittal/house5.jpg" />
+                <ProjectCard imageUrl="/mittal/house6.jpg" />
+                <ProjectCard imageUrl="/mittal/house7.jpg" />
+                <ProjectCard imageUrl="/mittal/house8.jpg" />
+                <ProjectCard imageUrl="/mittal/house9.jpg" />
+                <ProjectCard imageUrl="/mittal/house10.jpg" />
+                <ProjectCard imageUrl="/mittal/house11.jpg" />
+                <ProjectCard imageUrl="/mittal/house12.jpg" />
+                <ProjectCard imageUrl="/mittal/house13.jpg" />
+                <ProjectCard imageUrl="/mittal/house14.jpg" />
+                <ProjectCard imageUrl="/mittal/house15.jpg" />
+                <ProjectCard imageUrl="/mittal/house16.jpg" />
+                <ProjectCard imageUrl="/mittal/house17.jpg" />
+                <ProjectCard imageUrl="/mittal/house18.jpg" />
+                <ProjectCard imageUrl="/mittal/house19.jpg" />
+                <ProjectCard imageUrl="/mittal/house20.jpg" />
             </section>
         </>
     )

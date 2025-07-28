@@ -36,7 +36,7 @@ export default function Page() {
                             In Pansua, Jharkhand, the Department of Tourism sought to develop the dam area for eco-tourism.
                         </h2>
 
-                        <p className="font-serif tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
+                        <p className="font-Inter tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
                            The project faced challenges like varying water levels and steep slopes. Our design split the site into two sections: one for 
                            daily visitors and another semi-public area for overnight stays.The daily visitor area features parking, seating, a 
                            kids&apos; play zone, and boating facilities. The overnight area includes clusters of cottages with waterfront views, 
@@ -56,25 +56,25 @@ export default function Page() {
             </section>
 
             <section className="flex flex-col items-center gap-5 bg-[#F7F4EDff] px-4 pb-20">
-                <ProjectCard imageUrl="/ecoTourismPansua/pansua1.jpg" title="" />
-                <ProjectCard imageUrl="/ecoTourismPansua/pansua2.jpg" title="" />
-                <ProjectCard imageUrl="/ecoTourismPansua/pansua3.jpg" title="" />
-                <ProjectCard imageUrl="/ecoTourismPansua/pansua4.jpg" title="" />
-                <ProjectCard imageUrl="/ecoTourismPansua/pansua5.jpg" title="" />
-                <ProjectCard imageUrl="/ecoTourismPansua/pansua6.jpg" title="" />
-                <ProjectCard imageUrl="/ecoTourismPansua/pansua7.jpg" title="" />
-                <ProjectCard imageUrl="/ecoTourismPansua/pansua8.jpg" title="" />
-                <ProjectCard imageUrl="/ecoTourismPansua/pansua9.jpg" title="" />
-                <ProjectCard imageUrl="/ecoTourismPansua/pansua10.jpg" title="" />
-                <ProjectCard imageUrl="/ecoTourismPansua/pansua11.jpg" title="" />
-                <ProjectCard imageUrl="/ecoTourismPansua/pansua12.jpg" title="" />
-                <ProjectCard imageUrl="/ecoTourismPansua/pansua13.jpg" title="" />
-                <ProjectCard imageUrl="/ecoTourismPansua/pansua14.jpg" title="" />
-                <ProjectCard imageUrl="/ecoTourismPansua/pansua15.jpg" title="" />
-                <ProjectCard imageUrl="/ecoTourismPansua/pansua16.jpg" title="" />
-                <ProjectCard imageUrl="/ecoTourismPansua/pansua17.jpg" title="" />
-                <ProjectCard imageUrl="/ecoTourismPansua/pansua18.jpg" title="" />
-                <ProjectCard imageUrl="/ecoTourismPansua/pansua19.jpg" title="" />
+                <ProjectCard imageUrl="/ecoTourismPansua/pansua1.jpg" />
+                <ProjectCard imageUrl="/ecoTourismPansua/pansua2.jpg" />
+                <ProjectCard imageUrl="/ecoTourismPansua/pansua3.jpg" />
+                <ProjectCard imageUrl="/ecoTourismPansua/pansua4.jpg" />
+                <ProjectCard imageUrl="/ecoTourismPansua/pansua5.jpg" />
+                <ProjectCard imageUrl="/ecoTourismPansua/pansua6.jpg" />
+                <ProjectCard imageUrl="/ecoTourismPansua/pansua7.jpg" />
+                <ProjectCard imageUrl="/ecoTourismPansua/pansua8.jpg" />
+                <ProjectCard imageUrl="/ecoTourismPansua/pansua9.jpg" />
+                <ProjectCard imageUrl="/ecoTourismPansua/pansua10.jpg" />
+                <ProjectCard imageUrl="/ecoTourismPansua/pansua11.jpg" />
+                <ProjectCard imageUrl="/ecoTourismPansua/pansua12.jpg" />
+                <ProjectCard imageUrl="/ecoTourismPansua/pansua13.jpg" />
+                <ProjectCard imageUrl="/ecoTourismPansua/pansua14.jpg" />
+                <ProjectCard imageUrl="/ecoTourismPansua/pansua15.jpg" />
+                <ProjectCard imageUrl="/ecoTourismPansua/pansua16.jpg" />
+                <ProjectCard imageUrl="/ecoTourismPansua/pansua17.jpg" />
+                <ProjectCard imageUrl="/ecoTourismPansua/pansua18.jpg" />
+                <ProjectCard imageUrl="/ecoTourismPansua/pansua19.jpg" />
             </section>
         </>
     )

@@ -36,7 +36,7 @@ export default function Page() {
                           Renovated MGM hospital of Jamshedpur was in requirement of an entrance gateway that mimicked the modernist looks of the new appearance of their main buildings. 
                         </h2>
 
-                        <p className="font-serif tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
+                        <p className="font-Inter tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
                         We Used a Mushroom column and some Minimalistic design with lots of angular projections to achieve the 
                         same while also using 
                         A Picture of Mahatma Gandhi as their logo embossed onto the wall.
@@ -52,9 +52,9 @@ export default function Page() {
             </section>
 
             <section className="flex flex-col items-center gap-5 bg-[#F7F4EDff] px-4 pb-20">
-                <ProjectCard imageUrl="/mgmgate/gate1.jpg" title="" />
-                <ProjectCard imageUrl="/mgmgate/gate2.jpg" title="" />
-                <ProjectCard imageUrl="/mgmgate/gate3.jpg" title="" />
+                <ProjectCard imageUrl="/mgmgate/gate1.jpg" />
+                <ProjectCard imageUrl="/mgmgate/gate2.jpg" />
+                <ProjectCard imageUrl="/mgmgate/gate3.jpg" />
                 
             </section>
         </>

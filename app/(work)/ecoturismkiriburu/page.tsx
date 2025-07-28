@@ -36,7 +36,7 @@ export default function Page() {
                             Kiriburu, Jharkhand, presented a unique challenge due to its city location and contoured landscape.
                         </h2>
 
-                        <p className="font-serif tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
+                        <p className="font-Inter tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
                             We focused on a site layout that maintained a sense of openness. Cottages were placed on high points, 
                             while low points became open-air theatres, minimizing earthwork.
                             Our design included a multipurpose hall and ample open spaces, ensuring functionality without compromising aesthetics. 
@@ -55,16 +55,16 @@ export default function Page() {
             </section>
 
             <section className="flex flex-col items-center gap-5 bg-[#F7F4EDff] px-4 pb-20">
-                <ProjectCard imageUrl="/ecoTourismKiriburu/kiriburi1.jpg" title="" />
-                <ProjectCard imageUrl="/ecoTourismKiriburu/kiriburi2.jpg" title="" />
-                <ProjectCard imageUrl="/ecoTourismKiriburu/kiriburi3.jpg" title="" />
-                <ProjectCard imageUrl="/ecoTourismKiriburu/kiriburi4.jpg" title="" />
-                <ProjectCard imageUrl="/ecoTourismKiriburu/kiriburi5.jpg" title="" />
-                <ProjectCard imageUrl="/ecoTourismKiriburu/kiriburi6.jpg" title="" />
-                <ProjectCard imageUrl="/ecoTourismKiriburu/kiriburi7.jpg" title="" />
-                <ProjectCard imageUrl="/ecoTourismKiriburu/kiriburi8.jpg" title="" />
-                <ProjectCard imageUrl="/ecoTourismKiriburu/kiriburi9.jpg" title="" />
-                <ProjectCard imageUrl="/ecoTourismKiriburu/kiriburi10.jpg" title="" /> 
+                <ProjectCard imageUrl="/ecoTourismKiriburu/kiriburi1.jpg" />
+                <ProjectCard imageUrl="/ecoTourismKiriburu/kiriburi2.jpg" />
+                <ProjectCard imageUrl="/ecoTourismKiriburu/kiriburi3.jpg" />
+                <ProjectCard imageUrl="/ecoTourismKiriburu/kiriburi4.jpg" />
+                <ProjectCard imageUrl="/ecoTourismKiriburu/kiriburi5.jpg" />
+                <ProjectCard imageUrl="/ecoTourismKiriburu/kiriburi6.jpg" />
+                <ProjectCard imageUrl="/ecoTourismKiriburu/kiriburi7.jpg" />
+                <ProjectCard imageUrl="/ecoTourismKiriburu/kiriburi8.jpg" />
+                <ProjectCard imageUrl="/ecoTourismKiriburu/kiriburi9.jpg" />
+                <ProjectCard imageUrl="/ecoTourismKiriburu/kiriburi10.jpg"/> 
             </section>
         </>
     )

@@ -37,7 +37,7 @@ export default function Page() {
                             suitable for both private family time and large gatherings. 
                         </h2>
 
-                        <p className="font-serif tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
+                        <p className="font-Inter tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
                             Our design converted the roof into a lush haven with lawns, pergolas, and seating areas, strategically 
                             concealing MEP equipment and services.
                             Privacy was a key concern, addressed by crafting green boundaries with hedges, vines, and plants to shield the terrace from neighbouring views. This 
@@ -57,22 +57,22 @@ export default function Page() {
             </section>
 
             <section className="flex flex-col items-center gap-5 bg-[#F7F4EDff] px-4 pb-20">
-                <ProjectCard imageUrl="/ministerQuarterTerrace/terrace1.jpg" title="" />
-                <ProjectCard imageUrl="/ministerQuarterTerrace/terrace2.jpg" title="" />
-                <ProjectCard imageUrl="/ministerQuarterTerrace/terrace3.jpg" title="" />
-                <ProjectCard imageUrl="/ministerQuarterTerrace/terrace4.jpg" title="" />
-                <ProjectCard imageUrl="/ministerQuarterTerrace/terrace5.jpg" title="" />
-                <ProjectCard imageUrl="/ministerQuarterTerrace/terrace6.jpg" title="" />
-                <ProjectCard imageUrl="/ministerQuarterTerrace/terrace7.jpg" title="" />
-                <ProjectCard imageUrl="/ministerQuarterTerrace/terrace8.jpg" title="" />
-                <ProjectCard imageUrl="/ministerQuarterTerrace/terrace9.jpg" title="" />
-                <ProjectCard imageUrl="/ministerQuarterTerrace/terrace10.jpg" title="" />
-                <ProjectCard imageUrl="/ministerQuarterTerrace/terrace11.jpg" title="" />
-                <ProjectCard imageUrl="/ministerQuarterTerrace/terrace12.jpg" title="" />
-                <ProjectCard imageUrl="/ministerQuarterTerrace/terrace13.jpg" title="" />
-                <ProjectCard imageUrl="/ministerQuarterTerrace/terrace14.jpg" title="" />
-                <ProjectCard imageUrl="/ministerQuarterTerrace/terrace15.jpg" title="" />
-                <ProjectCard imageUrl="/ministerQuarterTerrace/terrace16.jpg" title="" />
+                <ProjectCard imageUrl="/ministerQuarterTerrace/terrace1.jpg" />
+                <ProjectCard imageUrl="/ministerQuarterTerrace/terrace2.jpg" />
+                <ProjectCard imageUrl="/ministerQuarterTerrace/terrace3.jpg" />
+                <ProjectCard imageUrl="/ministerQuarterTerrace/terrace4.jpg" />
+                <ProjectCard imageUrl="/ministerQuarterTerrace/terrace5.jpg" />
+                <ProjectCard imageUrl="/ministerQuarterTerrace/terrace6.jpg" />
+                <ProjectCard imageUrl="/ministerQuarterTerrace/terrace7.jpg" />
+                <ProjectCard imageUrl="/ministerQuarterTerrace/terrace8.jpg" />
+                <ProjectCard imageUrl="/ministerQuarterTerrace/terrace9.jpg" />
+                <ProjectCard imageUrl="/ministerQuarterTerrace/terrace10.jpg" />
+                <ProjectCard imageUrl="/ministerQuarterTerrace/terrace11.jpg" />
+                <ProjectCard imageUrl="/ministerQuarterTerrace/terrace12.jpg" />
+                <ProjectCard imageUrl="/ministerQuarterTerrace/terrace13.jpg" />
+                <ProjectCard imageUrl="/ministerQuarterTerrace/terrace14.jpg" />
+                <ProjectCard imageUrl="/ministerQuarterTerrace/terrace15.jpg" />
+                <ProjectCard imageUrl="/ministerQuarterTerrace/terrace16.jpg" />
             </section>
         </>
     )

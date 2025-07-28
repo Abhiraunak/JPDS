@@ -36,7 +36,7 @@ export default function Page() {
                             The scope of this project was architecture and landscaping to make the Façade look mesmerizing.
                         </h2>
 
-                        <p className="font-serif tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
+                        <p className="font-Inter tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
                             By using Travertine and HPL in Façade and Ceilings as well by Making use of various Themed materials we 
                             achieved the look of this villa. Use of Jalis were also Incorporated
                         </p>
@@ -51,10 +51,10 @@ export default function Page() {
             </section>
 
             <section className="flex flex-col items-center gap-5 bg-[#F7F4EDff] px-4 pb-20">
-                <ProjectCard imageUrl="/villa/villa1.jpg" title="" />
-                <ProjectCard imageUrl="/villa/villa2.jpg" title="" />
-                <ProjectCard imageUrl="/villa/villa3.jpg" title="" />
-                <ProjectCard imageUrl="/villa/header.jpg" title="" />
+                <ProjectCard imageUrl="/villa/villa1.jpg" />
+                <ProjectCard imageUrl="/villa/villa2.jpg" />
+                <ProjectCard imageUrl="/villa/villa3.jpg" />
+                <ProjectCard imageUrl="/villa/header.jpg" />
                
             </section>
         </>

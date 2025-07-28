@@ -37,7 +37,7 @@ export default function Page() {
                           architectural language of the associated structure and symbolizing the Grandeur. 
                         </h2>
 
-                        <p className="font-serif tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
+                        <p className="font-Inter tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
                            Using the Rounded columns, bollards, Brackets and Domes to complement the actual structure and using the Sandstone and stucco similar to 
                            Vidhan Sabha we achieved the symbolic identity of the gateway.The water feature and local Plantations to create avenue towards the 
                            Vidhan Sabha Building respects the nature and Local Fauna while adding to the identity as a whole.
@@ -53,13 +53,13 @@ export default function Page() {
             </section>
 
             <section className="flex flex-col items-center gap-5 bg-[#F7F4EDff] px-4 pb-20">
-                <ProjectCard imageUrl="/vidhansabha/gate1.jpg" title="" />
-                <ProjectCard imageUrl="/vidhansabha/gate2.jpg" title="" />
-                <ProjectCard imageUrl="/vidhansabha/gate3.jpg" title="" />
-                <ProjectCard imageUrl="/vidhansabha/gate4.jpg" title="" />
-                <ProjectCard imageUrl="/vidhansabha/gate5.jpg" title="" />
-                <ProjectCard imageUrl="/vidhansabha/gate6.jpg" title="" />
-                <ProjectCard imageUrl="/vidhansabha/gate7.jpg" title="" />
+                <ProjectCard imageUrl="/vidhansabha/gate1.jpg" />
+                <ProjectCard imageUrl="/vidhansabha/gate2.jpg" />
+                <ProjectCard imageUrl="/vidhansabha/gate3.jpg" />
+                <ProjectCard imageUrl="/vidhansabha/gate4.jpg" />
+                <ProjectCard imageUrl="/vidhansabha/gate5.jpg" />
+                <ProjectCard imageUrl="/vidhansabha/gate6.jpg" />
+                <ProjectCard imageUrl="/vidhansabha/gate7.jpg" />
             </section>
         </>
     )

@@ -36,7 +36,7 @@ export default function Page() {
                          Bikaner is in Rajasthan and known for its rich heritage architecture as well as hot climate.
                         </h2>
 
-                        <p className="font-serif tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
+                        <p className="font-Inter tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
                           The Scope of our work was to landscape the Space available for public access in a way that it serves all the age-groups.
                           Challenge was the fact that this available space was triangular and thus, we needed to reduce the visual weight of it in the site.
                           To manage it and distribute the visual weight thus, we divided the area into smaller rectangular areas and assigned 
@@ -55,17 +55,17 @@ export default function Page() {
             </section>
 
             <section className="flex flex-col items-center gap-5 bg-[#F7F4EDff] px-4 pb-20">
-                <ProjectCard imageUrl="/grouphousing/housing1.jpg" title="" />
-                <ProjectCard imageUrl="/grouphousing/housing2.jpg" title="" />
-                <ProjectCard imageUrl="/grouphousing/housing3.jpg" title="" />
-                <ProjectCard imageUrl="/grouphousing/housing4.jpg" title="" />
-                <ProjectCard imageUrl="/grouphousing/housing5.jpg" title="" />
-                <ProjectCard imageUrl="/grouphousing/housing6.jpg" title="" />
-                <ProjectCard imageUrl="/grouphousing/housing7.jpg" title="" />
-                <ProjectCard imageUrl="/grouphousing/housing8.jpg" title="" />
-                <ProjectCard imageUrl="/grouphousing/housing9.jpg" title="" />
-                <ProjectCard imageUrl="/grouphousing/housing10.jpg" title="" />
-                <ProjectCard imageUrl="/grouphousing/housing11.jpg" title="" />
+                <ProjectCard imageUrl="/grouphousing/housing1.jpg" />
+                <ProjectCard imageUrl="/grouphousing/housing2.jpg" />
+                <ProjectCard imageUrl="/grouphousing/housing3.jpg" />
+                <ProjectCard imageUrl="/grouphousing/housing4.jpg" />
+                <ProjectCard imageUrl="/grouphousing/housing5.jpg" />
+                <ProjectCard imageUrl="/grouphousing/housing6.jpg" />
+                <ProjectCard imageUrl="/grouphousing/housing7.jpg" />
+                <ProjectCard imageUrl="/grouphousing/housing8.jpg" />
+                <ProjectCard imageUrl="/grouphousing/housing9.jpg" />
+                <ProjectCard imageUrl="/grouphousing/housing10.jpg" />
+                <ProjectCard imageUrl="/grouphousing/housing11.jpg" />
             </section>
         </>
     )

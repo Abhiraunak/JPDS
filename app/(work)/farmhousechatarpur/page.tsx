@@ -36,7 +36,7 @@ export default function Page() {
                           Chhatarpur farm house is a 5-acre Landscaping project done in a way as to make the occupants feel relaxed and connected to nature. 
                         </h2>
 
-                        <p className="font-serif tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
+                        <p className="font-Inter tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
                            The challenge was to keep the landmass free from artificial hardscape as much as possible and keep the natural form and slopes 
                            as much in shape as we could. Envisioned to celebrate nature, the landscape incorporates naturally existing trees, mounds 
                            and stones seamlessly. The unique seating area features captivating circular patterns with a rich mix of materials, textures, 
@@ -56,23 +56,23 @@ export default function Page() {
             </section>
 
             <section className="flex flex-col items-center gap-5 bg-[#F7F4EDff] px-4 pb-20">
-                <ProjectCard imageUrl="/farmhouse/farm1.jpg" title="" />
-                <ProjectCard imageUrl="/farmhouse/farm2.jpg" title="" />
-                <ProjectCard imageUrl="/farmhouse/farm3.jpg" title="" />
-                <ProjectCard imageUrl="/farmhouse/farm4.jpg" title="" />
-                <ProjectCard imageUrl="/farmhouse/farm5.jpg" title="" />
-                <ProjectCard imageUrl="/farmhouse/farm6.jpg" title="" />
-                <ProjectCard imageUrl="/farmhouse/farm8.jpg" title="" />
-                <ProjectCard imageUrl="/farmhouse/farm9.jpg" title="" />
-                <ProjectCard imageUrl="/farmhouse/farm10.jpg" title="" />
-                <ProjectCard imageUrl="/farmhouse/farm11.jpg" title="" />
-                <ProjectCard imageUrl="/farmhouse/farm12.jpg" title="" />
-                <ProjectCard imageUrl="/farmhouse/farm13.jpg" title="" />
-                <ProjectCard imageUrl="/farmhouse/farm14.jpg" title="" />
-                <ProjectCard imageUrl="/farmhouse/farm15.jpg" title="" />
-                <ProjectCard imageUrl="/farmhouse/farm16.jpg" title="" />
-                <ProjectCard imageUrl="/farmhouse/farm17.jpg" title="" />
-                <ProjectCard imageUrl="/farmhouse/farm18.jpg" title="" />
+                <ProjectCard imageUrl="/farmhouse/farm1.jpg" />
+                <ProjectCard imageUrl="/farmhouse/farm2.jpg" />
+                <ProjectCard imageUrl="/farmhouse/farm3.jpg" />
+                <ProjectCard imageUrl="/farmhouse/farm4.jpg" />
+                <ProjectCard imageUrl="/farmhouse/farm5.jpg" />
+                <ProjectCard imageUrl="/farmhouse/farm6.jpg" />
+                <ProjectCard imageUrl="/farmhouse/farm8.jpg" />
+                <ProjectCard imageUrl="/farmhouse/farm9.jpg" />
+                <ProjectCard imageUrl="/farmhouse/farm10.jpg" />
+                <ProjectCard imageUrl="/farmhouse/farm11.jpg" />
+                <ProjectCard imageUrl="/farmhouse/farm12.jpg" />
+                <ProjectCard imageUrl="/farmhouse/farm13.jpg" />
+                <ProjectCard imageUrl="/farmhouse/farm14.jpg" />
+                <ProjectCard imageUrl="/farmhouse/farm15.jpg" />
+                <ProjectCard imageUrl="/farmhouse/farm16.jpg" />
+                <ProjectCard imageUrl="/farmhouse/farm17.jpg" />
+                <ProjectCard imageUrl="/farmhouse/farm18.jpg" />
             </section>
         </>
     )

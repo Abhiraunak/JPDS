@@ -37,7 +37,7 @@ export default function Page() {
                             as the level difference near swimming pool area.
                         </h2>
 
-                        <p className="font-serif tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
+                        <p className="font-Inter tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
                           To counter this we created a Sloped water fountain that drained water down Like a fabric from the Pool area.
                           It also housed splash pools for kids and seating area for adults with a Bar area directly opening 
                           into pool for those who wanted to have some drinks while swimming.
@@ -53,24 +53,24 @@ export default function Page() {
             </section>
 
             <section className="flex flex-col items-center gap-5 bg-[#F7F4EDff] px-4 pb-20">
-                <ProjectCard imageUrl="/ecoresort/resort1.jpg" title="" />
-                <ProjectCard imageUrl="/ecoresort/resort2.jpg" title="" />
-                <ProjectCard imageUrl="/ecoresort/resort3.jpg" title="" />
-                <ProjectCard imageUrl="/ecoresort/resort4.jpg" title="" />
-                <ProjectCard imageUrl="/ecoresort/resort5.jpg" title="" />
-                <ProjectCard imageUrl="/ecoresort/resort6.jpg" title="" />
-                <ProjectCard imageUrl="/ecoresort/resort7.jpg" title="" />
-                <ProjectCard imageUrl="/ecoresort/resort8.jpg" title="" />
-                <ProjectCard imageUrl="/ecoresort/resort9.jpg" title="" />
-                <ProjectCard imageUrl="/ecoresort/resort10.jpg" title="" />
-                <ProjectCard imageUrl="/ecoresort/resort11.jpg" title="" />
-                <ProjectCard imageUrl="/ecoresort/resort12.jpg" title="" />
-                <ProjectCard imageUrl="/ecoresort/resort13.jpg" title="" />
-                <ProjectCard imageUrl="/ecoresort/resort18.jpg" title="" />
-                <ProjectCard imageUrl="/ecoresort/resort14.jpg" title="" />
-                <ProjectCard imageUrl="/ecoresort/resort15.jpg" title="" />
-                <ProjectCard imageUrl="/ecoresort/resort16.jpg" title="" />
-                <ProjectCard imageUrl="/ecoresort/resort17.jpg" title="" />
+                <ProjectCard imageUrl="/ecoresort/resort1.jpg" />
+                <ProjectCard imageUrl="/ecoresort/resort2.jpg" />
+                <ProjectCard imageUrl="/ecoresort/resort3.jpg" />
+                <ProjectCard imageUrl="/ecoresort/resort4.jpg" />
+                <ProjectCard imageUrl="/ecoresort/resort5.jpg" />
+                <ProjectCard imageUrl="/ecoresort/resort6.jpg" />
+                <ProjectCard imageUrl="/ecoresort/resort7.jpg" />
+                <ProjectCard imageUrl="/ecoresort/resort8.jpg" />
+                <ProjectCard imageUrl="/ecoresort/resort9.jpg" />
+                <ProjectCard imageUrl="/ecoresort/resort10.jpg" />
+                <ProjectCard imageUrl="/ecoresort/resort11.jpg" />
+                <ProjectCard imageUrl="/ecoresort/resort12.jpg" />
+                <ProjectCard imageUrl="/ecoresort/resort13.jpg" />
+                <ProjectCard imageUrl="/ecoresort/resort18.jpg" />
+                <ProjectCard imageUrl="/ecoresort/resort14.jpg" />
+                <ProjectCard imageUrl="/ecoresort/resort15.jpg" />
+                <ProjectCard imageUrl="/ecoresort/resort16.jpg" />
+                <ProjectCard imageUrl="/ecoresort/resort17.jpg" />
             </section>
         </>
     )

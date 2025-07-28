@@ -37,7 +37,7 @@ export default function Page() {
                             area&apos;s breathtaking waterfalls and lush natural beauty.
                         </h2>
 
-                        <p className="font-serif tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
+                        <p className="font-Inter tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
                             The Assamese people&apos;s deep connection to nature made it essential to centre our design around organic elements. 
                             Integrating existing trees and buildings into the design posed a challenge, but we embraced the contoured site using steps, 
                             ramps, and mounds to enhance the natural terrain. The project scope included creating functional yet stunning landscapes. We 
@@ -59,25 +59,25 @@ export default function Page() {
             </section>
 
             <section className="flex flex-col items-center gap-5 bg-[#F7F4EDff] px-4 pb-20">
-                <ProjectCard imageUrl="/ecoResortPanimur/panimur1.jpg" title="" />
-                <ProjectCard imageUrl="/ecoResortPanimur/panimur2.jpg" title="" />
-                <ProjectCard imageUrl="/ecoResortPanimur/panimur3.jpg" title="" />
-                <ProjectCard imageUrl="/ecoResortPanimur/panimur4.jpg" title="" />
-                <ProjectCard imageUrl="/ecoResortPanimur/panimur5.jpg" title="" />
-                <ProjectCard imageUrl="/ecoResortPanimur/panimur6.jpg" title="" />
-                <ProjectCard imageUrl="/ecoResortPanimur/panimur7.jpg" title="" />
-                <ProjectCard imageUrl="/ecoResortPanimur/panimur8.jpg" title="" />
-                <ProjectCard imageUrl="/ecoResortPanimur/panimur9.jpg" title="" />
-                <ProjectCard imageUrl="/ecoResortPanimur/panimur10.jpg" title="" />
-                <ProjectCard imageUrl="/ecoResortPanimur/panimur11.jpg" title="" />
-                <ProjectCard imageUrl="/ecoResortPanimur/panimur12.jpg" title="" />
-                <ProjectCard imageUrl="/ecoResortPanimur/panimur13.jpg" title="" />
-                <ProjectCard imageUrl="/ecoResortPanimur/panimur14.jpg" title="" />
-                <ProjectCard imageUrl="/ecoResortPanimur/panimur15.jpg" title="" />
-                <ProjectCard imageUrl="/ecoResortPanimur/panimur16.jpg" title="" />
-                <ProjectCard imageUrl="/ecoResortPanimur/panimur17.jpg" title="" />
-                <ProjectCard imageUrl="/ecoResortPanimur/panimur18.jpg" title="" />
-                <ProjectCard imageUrl="/ecoResortPanimur/panimur19.jpg" title="" />
+                <ProjectCard imageUrl="/ecoResortPanimur/panimur1.jpg" />
+                <ProjectCard imageUrl="/ecoResortPanimur/panimur2.jpg" />
+                <ProjectCard imageUrl="/ecoResortPanimur/panimur3.jpg" />
+                <ProjectCard imageUrl="/ecoResortPanimur/panimur4.jpg" />
+                <ProjectCard imageUrl="/ecoResortPanimur/panimur5.jpg" />
+                <ProjectCard imageUrl="/ecoResortPanimur/panimur6.jpg" />
+                <ProjectCard imageUrl="/ecoResortPanimur/panimur7.jpg" />
+                <ProjectCard imageUrl="/ecoResortPanimur/panimur8.jpg" />
+                <ProjectCard imageUrl="/ecoResortPanimur/panimur9.jpg" />
+                <ProjectCard imageUrl="/ecoResortPanimur/panimur10.jpg" />
+                <ProjectCard imageUrl="/ecoResortPanimur/panimur11.jpg" />
+                <ProjectCard imageUrl="/ecoResortPanimur/panimur12.jpg" />
+                <ProjectCard imageUrl="/ecoResortPanimur/panimur13.jpg" />
+                <ProjectCard imageUrl="/ecoResortPanimur/panimur14.jpg" />
+                <ProjectCard imageUrl="/ecoResortPanimur/panimur15.jpg" />
+                <ProjectCard imageUrl="/ecoResortPanimur/panimur16.jpg" />
+                <ProjectCard imageUrl="/ecoResortPanimur/panimur17.jpg" />
+                <ProjectCard imageUrl="/ecoResortPanimur/panimur18.jpg" />
+                <ProjectCard imageUrl="/ecoResortPanimur/panimur19.jpg" />
                
             </section>
         </>

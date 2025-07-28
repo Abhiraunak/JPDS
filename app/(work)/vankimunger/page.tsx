@@ -37,7 +37,7 @@ export default function Page() {
                             Vaniki is a Building of Forest department.
                         </h2>
 
-                        <p className="font-serif tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
+                        <p className="font-Inter tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
                           With a courtyard that received very less hours of sunlight across the daytime, our scope of work of landscaping was quite a bit calculative.
                           We first devised a connectivity diagram and flow diagram to understand the movement of public and occupants and then divided the courtyard into parts, symmetrically.
                           We used Plantations that require less maintenance and sunlight to satisfy the environment inside it. Use of Stone Pavers helped us to radiate the nature-sensitive qualities of Forest department
@@ -53,11 +53,11 @@ export default function Page() {
             </section>
 
             <section className="flex flex-col items-center gap-5 bg-[#F7F4EDff] px-4 pb-20">
-                <ProjectCard imageUrl="/vanki/vanki1.jpg" title="" />
-                <ProjectCard imageUrl="/vanki/vanki2.jpg" title="" />
-                <ProjectCard imageUrl="/vanki/vanki3.jpg" title="" />
-                <ProjectCard imageUrl="/vanki/vanki4.jpg" title="" />
-                <ProjectCard imageUrl="/vanki/vanki5.jpg" title="" />
+                <ProjectCard imageUrl="/vanki/vanki1.jpg" />
+                <ProjectCard imageUrl="/vanki/vanki2.jpg" />
+                <ProjectCard imageUrl="/vanki/vanki3.jpg" />
+                <ProjectCard imageUrl="/vanki/vanki4.jpg" />
+                <ProjectCard imageUrl="/vanki/vanki5.jpg" />
             </section>
         </>
     )

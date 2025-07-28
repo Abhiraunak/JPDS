@@ -36,7 +36,7 @@ export default function Page() {
                             In the bustling city of Silchar, the second-largest in Assam, we embarked on a landscape project for Advantage Realty&apos;s upscale housing development.
                         </h2>
 
-                        <p className="font-serif tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
+                        <p className="font-Inter tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
                             Our task was to design the landscape, gateway, and driveways, catering to the sophisticated tastes of the residents.
                             A minimalist approach with horizontal and vertical planes and a dark, muted color palette was chosen to complement the flat terrain.
                             We combined sleek, modern lines with lush greenery, resulting in a harmonious blend of nature and architecture.
@@ -55,11 +55,11 @@ export default function Page() {
             </section>
 
             <section className="flex flex-col items-center gap-5 bg-[#F7F4EDff] px-4 pb-20">
-                <ProjectCard imageUrl="/advantageRelty/advantage1.jpg" title="" />
-                <ProjectCard imageUrl="/advantageRelty/advantage2.jpg" title="" />
-                <ProjectCard imageUrl="/advantageRelty/advantage3.jpg" title="" />
-                <ProjectCard imageUrl="/advantageRelty/advantage4.jpg" title="" />
-                <ProjectCard imageUrl="/advantageRelty/advantage5.jpg" title="" />
+                <ProjectCard imageUrl="/advantageRelty/advantage1.jpg"/>
+                <ProjectCard imageUrl="/advantageRelty/advantage2.jpg"/>
+                <ProjectCard imageUrl="/advantageRelty/advantage3.jpg"/>
+                <ProjectCard imageUrl="/advantageRelty/advantage4.jpg"/>
+                <ProjectCard imageUrl="/advantageRelty/advantage5.jpg"/>
             </section>
         </>
     )

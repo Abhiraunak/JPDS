@@ -36,7 +36,7 @@ export default function Page() {
                     This particular project was quite interesting in terms of its looks as it housed a Garden in front followed by the main Residential Building.
                         </h2>
 
-                        <p className="font-serif tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
+                        <p className="font-Inter tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
                             Our scope was Architecture interior and Landscape and We did Make the look worth it by Changing Materials to create planar 
                             façade and some fenestration design with Jali and Louvers along with planter boxes really added to it. The front garden 
                             housed a swing, a lawn and some flowering plants on the edged to create a sense of separated entity while being a part of 
@@ -53,11 +53,11 @@ export default function Page() {
             </section>
 
             <section className="flex flex-col items-center gap-5 bg-[#F7F4EDff] px-4 pb-20">
-                <ProjectCard imageUrl="/nagpur/house1.jpg" title="" />
-                <ProjectCard imageUrl="/nagpur/house2.jpg" title="" />
-                <ProjectCard imageUrl="/nagpur/house3.jpg" title="" />
-                <ProjectCard imageUrl="/nagpur/house4.jpg" title="" />
-                <ProjectCard imageUrl="/nagpur/house5.jpg" title="" />
+                <ProjectCard imageUrl="/nagpur/house1.jpg" />
+                <ProjectCard imageUrl="/nagpur/house2.jpg" />
+                <ProjectCard imageUrl="/nagpur/house3.jpg" />
+                <ProjectCard imageUrl="/nagpur/house4.jpg" />
+                <ProjectCard imageUrl="/nagpur/house5.jpg" />
             </section>
         </>
     )

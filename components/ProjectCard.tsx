@@ -2,12 +2,11 @@ import Image from "next/image";
 
 interface ProjectCardProps {
     imageUrl: string;
-    title: string;
 }
 
-export default function ProjectCard({ imageUrl, title }: ProjectCardProps) {
+export default function ProjectCard({ imageUrl }: ProjectCardProps) {
     return (
-        <div className="flex flex-col items-center py-8 gap-4">
+        <div className="flex flex-col items-center mt-2">
             <div className="relative w-full max-w-2xl">
                 <Image
                     src={imageUrl}
@@ -17,9 +16,6 @@ export default function ProjectCard({ imageUrl, title }: ProjectCardProps) {
                     className="rounded-sm object-cover"
                 />
             </div>
-            <h2 className="mt-2 text-xl md:text-2xl font-sans font-semibold tracking-widest text-black uppercase">
-                {title}
-            </h2>
         </div>
     );
 }

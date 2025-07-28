@@ -36,7 +36,7 @@ export default function Page() {
                            It is an architectural Project in which we chose the simplistic approach and Cost- effective design.
                         </h2>
 
-                        <p className="font-serif tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
+                        <p className="font-Inter tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
                            Using contrasting materials and mix of varying textures we achieved the Look and feel of a Costly multi-storey without 
                            causing heavy pocket-drains. Front Facing Balconies were Aided with Glazed panels to enhance the openness of the 
                            floors and maximize views.
@@ -52,8 +52,8 @@ export default function Page() {
             </section>
 
             <section className="flex flex-col items-center gap-5 bg-[#F7F4EDff] px-4 pb-20">
-                <ProjectCard imageUrl="/gurugram/house1.jpg" title="" />
-                <ProjectCard imageUrl="/gurugram/house2.jpg" title="" />
+                <ProjectCard imageUrl="/gurugram/house1.jpg" />
+                <ProjectCard imageUrl="/gurugram/house2.jpg" />
             </section>
         </>
     )
