@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Page() {
     return (
         <>
-            <main className="relative w-full h-screen select-none">
+            <main className="relative w-full h-screen select-none ">
                 <ImageTitle
                     imageUrl="/advantageRelty/project.jpg"
                     headerText="Advantage Realty"
@@ -55,11 +55,11 @@ export default function Page() {
             </section>
 
             <section className="flex flex-col items-center gap-5 bg-[#F7F4EDff] px-4 pb-20">
-                <ProjectCard imageUrl="/advantageRelty/advantage1.jpg"/>
-                <ProjectCard imageUrl="/advantageRelty/advantage2.jpg"/>
-                <ProjectCard imageUrl="/advantageRelty/advantage3.jpg"/>
-                <ProjectCard imageUrl="/advantageRelty/advantage4.jpg"/>
-                <ProjectCard imageUrl="/advantageRelty/advantage5.jpg"/>
+                <ProjectCard imageUrl="/advantageRelty/advantage1.jpg" />
+                <ProjectCard imageUrl="/advantageRelty/advantage2.jpg" />
+                <ProjectCard imageUrl="/advantageRelty/advantage3.jpg" />
+                <ProjectCard imageUrl="/advantageRelty/advantage4.jpg" />
+                <ProjectCard imageUrl="/advantageRelty/advantage5.jpg" />
             </section>
         </>
     )

@@ -13,7 +13,7 @@ export default function ProjectCard({ imageUrl }: ProjectCardProps) {
                     alt="JPDS projects"
                     width={800}
                     height={533} 
-                    className="rounded-sm object-cover"
+                    className="rounded-sm object-cover border-neutral-500 shadow-md"
                 />
             </div>
         </div>
