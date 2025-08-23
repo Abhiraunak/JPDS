@@ -32,7 +32,7 @@ export default function Page() {
                             Farmhouse Chattarpur
                         </h1>
 
-                        <h2 className="font-Roboto pt-6 lg:pt-10 text-2xl md:text-3xl lg:text-4xl text-center select-none">
+                        <h2 className="font-Roboto pt-6 lg:pt-10 text-3xl text-center tracking-tighter select-none">
                           Chhatarpur farm house is a 5-acre Landscaping project done in a way as to make the occupants feel relaxed and connected to nature. 
                         </h2>
 

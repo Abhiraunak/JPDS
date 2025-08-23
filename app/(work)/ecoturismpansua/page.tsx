@@ -32,7 +32,7 @@ export default function Page() {
                             Eco-Tourism, Pansua
                         </h1>
 
-                        <h2 className="font-Roboto pt-6 lg:pt-10 text-2xl md:text-3xl lg:text-4xl text-center select-none">
+                        <h2 className="font-Roboto pt-6 lg:pt-10 text-3xl text-center tracking-tighter select-none">
                             In Pansua, Jharkhand, the Department of Tourism sought to develop the dam area for eco-tourism.
                         </h2>
 

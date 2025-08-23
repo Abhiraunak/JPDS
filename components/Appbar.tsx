@@ -95,7 +95,7 @@ export function Appbar() {
             </Container>
 
             {/* Mobile Logo */}
-            <div className="md:hidden fixed top-0 left-0 right-0 w-full flex items-center bg-white z-50 justify-between px-4 py-2 border-b border-gray-200">
+            <div className="md:hidden fixed inset-x-0 top-0 z-50 mx-auto flex max-w-xl items-center justify-between rounded-xl bg-neutral-200 px-4 py-2 p-2 mt-2 ml-1 mr-1">
                 <div>
                     <Link href="/">
                         <Image src="/JPDS.png" height={60} width={60} alt="logo" />
@@ -110,8 +110,8 @@ export function Appbar() {
 
             {/* Mobile Navigation */}
             {isOpen && (
-                <div className="md:hidden absolute top-16 left-0 w-full min-h-screen font-sans bg-white z-50 py-4 border-b border-zinc-500">
-                    <ul className="flex flex-col space-y-4 text-black font-semibold tracking-wider px-6">
+                <div className="md:hidden absolute top-16 left-0 w-full min-h-screen font-sans bg-neutral-100 z-50 py-4 border-b border-zinc-500">
+                    <ul className="flex flex-col space-y-4 text-black font-semibold text-3xl tracking-wider px-6">
                         <li>
                             <button
                                 onClick={() => handleNavigation("/projects")}

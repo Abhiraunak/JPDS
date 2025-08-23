@@ -32,7 +32,7 @@ export default function Page() {
                             Spring Grand
                         </h1>
 
-                        <h2 className="font-Inter pt-6 lg:pt-10 text-2xl md:text-3xl lg:text-4xl text-center select-none">
+                        <h2 className="font-Roboto pt-6 lg:pt-10 text-3xl text-center tracking-tighter select-none">
                             Spring Grand was quite the challenging Project dealt beautifully with landscaping as the main scope
                             around the group housing society
                         </h2>

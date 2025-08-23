@@ -29,23 +29,23 @@ export default function Page() {
                     {/* Text Column */}
                     <div className="text-black lg:pl-5 px-4 md:px-0 flex flex-col justify-center max-w-3xl mx-auto lg:max-w-none">
                         <h1 className="font-sans font-semibold text-4xl md:text-5xl lg:text-6xl tracking-widest text-center select-none">
-                           Residence, Nagpur
+                            Residence, Nagpur
                         </h1>
 
-                        <h2 className="font-Roboto pt-6 lg:pt-10 text-2xl md:text-3xl lg:text-4xl text-center select-none">
-                    This particular project was quite interesting in terms of its looks as it housed a Garden in front followed by the main Residential Building.
+                        <h2 className="font-Roboto pt-6 lg:pt-10 text-3xl text-center tracking-tighter select-none">
+                            This particular project was quite interesting in terms of its looks as it housed a Garden in front followed by the main Residential Building.
                         </h2>
 
                         <p className="font-Inter tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
-                            Our scope was Architecture interior and Landscape and We did Make the look worth it by Changing Materials to create planar 
-                            façade and some fenestration design with Jali and Louvers along with planter boxes really added to it. The front garden 
-                            housed a swing, a lawn and some flowering plants on the edged to create a sense of separated entity while being a part of 
+                            Our scope was Architecture interior and Landscape and We did Make the look worth it by Changing Materials to create planar
+                            façade and some fenestration design with Jali and Louvers along with planter boxes really added to it. The front garden
+                            housed a swing, a lawn and some flowering plants on the edged to create a sense of separated entity while being a part of
                             the system. Multiple planes created a play of light and shadow and in turn created a sense of depth of field.
                         </p>
 
                         <div className="pt-5">
                             <h1 className="font-sans font-medium border-l-2 pl-4 text-lg md:text-xl">
-                              Nagpur
+                                Nagpur
                             </h1>
                         </div>
                     </div>

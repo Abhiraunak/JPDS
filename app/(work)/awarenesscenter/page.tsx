@@ -32,7 +32,7 @@ export default function Page() {
                             Awareness Centre
                         </h1>
 
-                        <h2 className="font-Roboto pt-6 lg:pt-10 text-2xl md:text-3xl lg:text-4xl text-center select-none">
+                        <h2 className="font-Roboto pt-6 lg:pt-10 text-3xl text-center tracking-tighter select-none">
                             Ramgarh, a city in Jharkhand, near its capital Ranchi, is a mining, industrial and
                             cultural hub. It is also a Historic landmark and during British rule, it housed several
                             Wood treatment plants for sleepers.

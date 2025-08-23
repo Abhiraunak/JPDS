@@ -32,7 +32,7 @@ export default function Page() {
                             Vidhan Sabha Gate
                         </h1>
 
-                        <h2 className="font-Roboto pt-6 lg:pt-10 text-2xl md:text-3xl lg:text-4xl text-center select-none">
+                        <h2 className="font-Roboto pt-6 lg:pt-10 text-3xl text-center tracking-tighter select-none">
                           Gateway to enter the Vidhan Sabha building, that represents the whole state had to be unique, harmonized with the emotions and 
                           architectural language of the associated structure and symbolizing the Grandeur. 
                         </h2>

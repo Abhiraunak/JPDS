@@ -32,7 +32,7 @@ export default function Page() {
                             Convention Centre
                         </h1>
 
-                        <h2 className="font-Roboto pt-6 lg:pt-10 text-2xl md:text-3xl lg:text-4xl text-center select-none">
+                        <h2 className="font-Roboto pt-6 lg:pt-10 text-3xl text-center tracking-tighter select-none">
                             The corner side plot was to be developed as a Convention Centre as a Competition Project and the form at play was according to site.
                         </h2>
 
