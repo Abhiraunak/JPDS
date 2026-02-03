@@ -132,14 +132,6 @@ export function Appbar() {
                                 contact
                             </button>
                         </li>
-                        <li>
-                            <button
-                                onClick={() => handleNavigation("/contactus")}
-                                className="w-full text-left cursor-pointer hover:border-b hover:border-zinc-500 py-2"
-                            >
-                                socials
-                            </button>
-                        </li>
                     </ul>
                 </div>
             )}
