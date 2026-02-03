@@ -33,13 +33,13 @@ export default function AboutUsPage() {
                 ></motion.div>
                 
                 <p className="font-serif text-xl md:text-2xl leading-relaxed text-gray-700">
-                  JPDS is a boutique design studio specializing in high-end residences, 
+                  JPDS is a architecture design studio specializing in high-end residences, 
                   landscape architecture, urban design, public art, and environmental 
                   planning across India.
                 </p>
                 
                 <div className="mt-10 flex flex-wrap gap-3">
-                  {["Faridabad HQ", "Pan-India Projects", "Est. 2010", "Boutique Studio"].map((tag, i) => (
+                  {["Faridabad HQ", "Pan-India Projects", "Est. 2010", "Architecture Studio"].map((tag, i) => (
                     <motion.div
                       key={i}
                       className="px-4 py-2 bg-white border border-gray-200 rounded-full text-sm font-medium shadow-sm"

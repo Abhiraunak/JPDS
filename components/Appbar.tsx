@@ -21,10 +21,6 @@ export function Appbar() {
         {
             title: 'contact',
             href: "contactus"
-        },
-        {
-            title: 'socials',
-            href: "contactus"
         }
     ]
 

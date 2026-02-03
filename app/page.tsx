@@ -32,7 +32,7 @@ export default function Home() {
               <div className="w-16 h-0.5 bg-gray-400"></div>
             </div>
             <p className="mt-4 text-gray-300 italic">
-              Boutique Studio Based in Faridabad, Serving Pan-India Visions.
+              Architecture Studio Based in Faridabad, Serving Pan-India Visions.
             </p>
           </div>
 
@@ -48,7 +48,7 @@ export default function Home() {
 
           {/* Subtle Tagline */}
           <p className="mt-10 text-sm uppercase tracking-widest opacity-75">
-            Innovating Harmony Between Nature and Urban Life
+            Our studio offers expert services in architecture, interior design, and Vastu consulting to create spaces that are both harmonious and functional.
           </p>
         </div>
       </section>
