@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gray-900 text-white">
       <Head>
-        <title>JPDS - Boutique Design Studio</title>
+        <title>JPDS - Architecture Design Studio</title>
         <meta name="description" content="High-end residences, landscape architecture, urban design, public art, and environmental planning across India." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>

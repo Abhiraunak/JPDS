@@ -19,7 +19,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "JPDS",
   description:
-    "JPDS is a boutique design studio specializing in high-end residential architecture, landscape design, urban planning, public art, and environmental solutions. Based in Faridabad, serving clients pan India.",
+    "JPDS is a architecture design studio specializing in high-end residential architecture, landscape design, urban planning, public art, and environmental solutions. Based in Faridabad, serving clients pan India.",
   keywords: [
     "architecture projects",
     "interior design",
@@ -30,6 +30,9 @@ export const metadata: Metadata = {
     "landscape architecture India",
     "urban design studio",
     "JPDS Faridabad",
+    "Vastu consulting",
+    "Best architecture",
+    "vastu designing"
   ],
   robots: "index, follow",
   openGraph: {
@@ -51,7 +54,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "JPDS | Boutique Architecture & Design Studio",
+    title: "JPDS | Architecture & Design Studio",
     description:
       "Discover high-end residential and environmental design solutions from JPDS — based in Faridabad, delivering excellence across India.",
     images: ["https://www.jpds.in/JPDS_LOGO.png"],
