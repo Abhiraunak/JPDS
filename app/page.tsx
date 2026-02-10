@@ -1,6 +1,6 @@
-import { BackgroundVideo } from '@/components/BackgroundVideo';
 import Head from 'next/head';
 import Link from 'next/link';
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -12,46 +12,25 @@ export default function Home() {
       </Head>
 
       {/* Hero Section - Fixed centering */}
-     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16 md:pt-0">
-        {/* Video Background */}
-        <div className="absolute inset-0 z-0">
-          <BackgroundVideo />
-        </div>
-
-        {/* Content Container - Removed top margin */}
-        <div className="relative z-10 max-w-4xl px-6 text-center">
-          <h1 className="text-5xl font-bold tracking-wide lg:text-8xl mb-4">
-            JPDS
-          </h1>
-          <div className="max-w-3xl mx-auto mb-12">
-            <p className="text-lg md:text-xl leading-relaxed">
-              Crafting Timeless Spaces: High-End Residences, Landscape Architecture, 
-              Urban Design, Public Art, and Environmental Planning Across India.
-            </p>
-            <div className="mt-4 flex justify-center">
-              <div className="w-16 h-0.5 bg-gray-400"></div>
-            </div>
-            <p className="mt-4 text-gray-300 italic">
-              Architecture Studio Based in Faridabad, Serving Pan-India Visions.
-            </p>
-          </div>
-
-          {/* Call-to-Action Button */}
-          <Link href="/projects" passHref>
-            <button
-              className="rounded-full bg-neutral-500 px-8 py-4 text-lg font-semibold transition-all duration-300 hover:bg-neutral-700 hover:shadow-lg hover:scale-105 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:ring-opacity-75"
-              aria-label="View our portfolio"
-            >
-              Explore Our Portfolio
+      <main className="relative w-full min-h-screen flex items-center justify-center overflow-hidden">
+        {/* background image */}
+        <Image
+          src="/ecoresort/resort2.jpeg"
+          alt="Eco Resort"
+          fill
+          priority
+          className="object-cover object-center"
+          sizes="100vw"
+        />
+        <div className="absolute inset-0 bg-black/10 z-0" />
+        <div className="relative z-10">
+          <Link href="/projects">
+            <button className="shadow-[inset_0_0_0_2px_#616467] text-netural-200 px-12 py-4 rounded-full tracking-widest uppercase font-bold bg-transparent hover:bg-[#616467] hover:text-white dark:text-neutral-200 transition duration-200">
+              Explore our portfolio
             </button>
           </Link>
-
-          {/* Subtle Tagline */}
-          <p className="mt-10 text-sm uppercase tracking-widest opacity-75">
-            Our studio offers expert services in architecture, interior design, and Vastu consulting to create spaces that are both harmonious and functional.
-          </p>
         </div>
-      </section>
+      </main>
     </div>
   );
 }
