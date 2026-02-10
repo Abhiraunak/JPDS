@@ -7,7 +7,7 @@ export default function Page() {
         <>
             <main className="relative w-full h-screen selection:none">
                 <ImageTitle
-                    imageUrl="/ecoresort/resort2.jpg"
+                    imageUrl="/ecoresort/resort2.jpeg"
                     headerText="Ecoresort, Ranchi"
                 />
             </main>
