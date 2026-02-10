@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     siteName: "JPDS",
     images: [
       {
-        url: "https://www.jpds.in/JPDS2.png", // <- updated image
+        url: "https://www.jpds.in/JPDS.png", // <- updated image
         width: 1200,
         height: 630,
         alt: "JPDS Logo",
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     title: "JPDS | Architecture & Design Studio",
     description:
       "Discover high-end residential and environmental design solutions from JPDS — based in Faridabad, delivering excellence across India.",
-    images: ["https://www.jpds.in/JPDS_LOGO.png"],
+    images: ["https://www.jpds.in/JPDS.png"],
   },
   icons: {
     icon: "/favicon.ico", // optional favicon

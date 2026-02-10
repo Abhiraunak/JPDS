@@ -7,7 +7,7 @@ export default function Page() {
         <>
             <main className="relative w-full h-screen selection:none">
                 <ImageTitle
-                    imageUrl="/ecoresort/header.jpg"
+                    imageUrl="/ecoresort/resort2.jpg"
                     headerText="Ecoresort, Ranchi"
                 />
             </main>
@@ -18,7 +18,7 @@ export default function Page() {
                     <div className="flex justify-center lg:justify-end lg:items-center lg:pl-5 h-[50vh] lg:h-full">
                         <div className="relative w-full max-w-xl lg:w-[700px] h-full">
                             <Image
-                                src={"/ecoresort/header.jpg"}
+                                src={"/ecoresort/resort1.jpg"}
                                 alt="project image"
                                 fill
                                 className="rounded-md object-cover"
@@ -54,15 +54,15 @@ export default function Page() {
 
             <section className="flex flex-col items-center gap-5 bg-[#F7F4EDff] px-4 pb-20">
                 <ProjectCard imageUrl="/ecoresort/resort1.jpg" />
-                <ProjectCard imageUrl="/ecoresort/resort2.jpg" />
+                <ProjectCard imageUrl="/ecoresort/resort2.jpeg" />
                 <ProjectCard imageUrl="/ecoresort/resort3.jpg" />
                 <ProjectCard imageUrl="/ecoresort/resort4.jpg" />
-                <ProjectCard imageUrl="/ecoresort/resort5.jpg" />
-                <ProjectCard imageUrl="/ecoresort/resort6.jpg" />
-                <ProjectCard imageUrl="/ecoresort/resort7.jpg" />
+                <ProjectCard imageUrl="/ecoresort/resort5.jpeg" />
+                <ProjectCard imageUrl="/ecoresort/resort6.jpeg" />
+                <ProjectCard imageUrl="/ecoresort/resort7.jpeg" />
                 <ProjectCard imageUrl="/ecoresort/resort8.jpg" />
-                <ProjectCard imageUrl="/ecoresort/resort9.jpg" />
-                <ProjectCard imageUrl="/ecoresort/resort10.jpg" />
+                <ProjectCard imageUrl="/ecoresort/resort9.jpeg" />
+                <ProjectCard imageUrl="/ecoresort/resort10.jpeg" />
                 <ProjectCard imageUrl="/ecoresort/resort11.jpg" />
                 <ProjectCard imageUrl="/ecoresort/resort12.jpg" />
                 <ProjectCard imageUrl="/ecoresort/resort13.jpg" />

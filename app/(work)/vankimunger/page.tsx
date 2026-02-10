@@ -7,7 +7,7 @@ export default function Page() {
         <>
             <main className="relative w-full h-screen selection:none">
                 <ImageTitle
-                    imageUrl="/vanki/header.jpg"
+                    imageUrl="/vanki/munger1.jpg"
                     headerText="Vaniki, Munger"
                 />
             </main>
@@ -18,7 +18,7 @@ export default function Page() {
                     <div className="flex justify-center lg:justify-end lg:items-center lg:pl-5 h-[50vh] lg:h-full">
                         <div className="relative w-full max-w-xl lg:w-[700px] h-full">
                             <Image
-                                src={"/vanki/header.jpg"}
+                                src={"/vanki/munger15.jpg"}
                                 alt="project image"
                                 fill
                                 className="rounded-md object-cover"
@@ -53,11 +53,20 @@ export default function Page() {
             </section>
 
             <section className="flex flex-col items-center gap-5 bg-[#F7F4EDff] px-4 pb-20">
-                <ProjectCard imageUrl="/vanki/vanki1.jpg" />
-                <ProjectCard imageUrl="/vanki/vanki2.jpg" />
-                <ProjectCard imageUrl="/vanki/vanki3.jpg" />
-                <ProjectCard imageUrl="/vanki/vanki4.jpg" />
-                <ProjectCard imageUrl="/vanki/vanki5.jpg" />
+                <ProjectCard imageUrl="/vanki/munger1.jpg" />
+                <ProjectCard imageUrl="/vanki/munger2.jpg" />
+                <ProjectCard imageUrl="/vanki/munger3.jpg" />
+                <ProjectCard imageUrl="/vanki/munger4.jpg" />
+                <ProjectCard imageUrl="/vanki/munger5.jpg" />
+                <ProjectCard imageUrl="/vanki/munger6.jpg" />
+                <ProjectCard imageUrl="/vanki/munger7.jpg" />
+                <ProjectCard imageUrl="/vanki/munger8.jpg" />
+                <ProjectCard imageUrl="/vanki/munger9.jpg" />
+                <ProjectCard imageUrl="/vanki/munger10.jpg" />
+                <ProjectCard imageUrl="/vanki/munger11.jpg" />
+                <ProjectCard imageUrl="/vanki/munger12.jpg" />
+                <ProjectCard imageUrl="/vanki/munger13.jpg" />
+                <ProjectCard imageUrl="/vanki/munger14.jpg" />
             </section>
         </>
     )

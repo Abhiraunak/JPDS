@@ -3,6 +3,8 @@ import { FaAddressCard } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa6";
 import { FaPinterest } from "react-icons/fa";
+import { MdContactPhone } from "react-icons/md";
+import { MdEmail } from "react-icons/md";
 
 export default function Page() {
     return (
@@ -23,7 +25,7 @@ export default function Page() {
 
                             <div className="mt-10 flex flex-col gap-6">
                                 <div className="px-6 py-4 bg-[#ccd5ae] text-black rounded-full font-serif shadow-md hover:shadow-lg transition-shadow">
-                                    <h2 className="text-xl font-semibold">FARIDABAD</h2>
+                                    <h2 className="text-xl font-semibold">New Delhi | NCR</h2>
                                     <div className="flex flex-row items-center mt-1">
                                         <FaAddressCard className="text-lg" />
                                         <p className="pl-2">M11/09/SF, BPTP Park Elite Floor, Sector-83, Faridabad 121002</p>
@@ -37,13 +39,16 @@ export default function Page() {
                                     </div>
                                 </div>
                                 <div className="px-6 py-4 bg-[#ccd5ae] text-black rounded-full font-serif shadow-md hover:shadow-lg transition-shadow">
-                                    <h2 className="text-xl font-semibold">HILSA</h2>
                                     <div className="flex flex-row items-center mt-1">
-                                        <FaAddressCard className="text-lg" />
-                                        <p className="pl-2">Saroj Palace, Rammurti Nagar, Hilsa 801302</p>
+                                        <MdContactPhone  className="text-lg" />
+                                            <p className="pl-2">9717654551 </p>
+                                    </div>
+                                    <div className="flex flex-row items-center mt-1">
+                                        <MdEmail  className="text-lg" />
+                                            <p className="pl-2">jay.mnit@gmail.com </p>
                                     </div>
                                 </div>
-                                 <div className="px-6 py-4 bg-[#ccd5ae] text-black rounded-full font-serif shadow-md hover:shadow-lg transition-shadow">
+                                <div className="px-6 py-4 bg-[#ccd5ae] text-black rounded-full font-serif shadow-md hover:shadow-lg transition-shadow">
                                     <h2 className="text-xl font-semibold text-center mb-3">Follow us on</h2>
                                     <div className="flex flex-row justify-center gap-8">
                                         <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="Twitter">

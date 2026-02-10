@@ -1,5 +1,35 @@
 export const project = [
     {
+        src: "/ecoresort/resort2.jpeg",
+        caption: "Vinaika eco resort, Ranchi",
+        href: "/ecoresort",
+        category: "Architecture"
+    },
+      {
+        src: "/statehouse/house3.jpg",
+        caption: "State guest house, BodhGaya",
+        href: "/statehouse",
+        category: "Architecture"
+    },
+     {
+        src: "/vanki/munger1.jpg",
+        caption: "Vaniki, Munger",
+        href: "/vankimunger",
+        category: "Landscape"
+    },
+    {
+        src: "/nagpur/header.jpg",
+        caption: "Residence, Nagpur",
+        href: "/residencenagpur",
+        category: "Architecture"
+    },
+    {
+        src: "/alwar/header.jpg",
+        caption: "Alwar Residence",
+        href: "/alwaresidence",
+        category: "Architecture"
+    },
+    {
         src: "/advantageRelty/project.jpg",
         caption: "Advantage Realty",
         href: "/advantagereality",
@@ -11,12 +41,7 @@ export const project = [
         href: "/agarwalresidence",
         category: "Interior"
     },
-    {
-        src: "/alwar/header.jpg",
-        caption: "Alwar Residence",
-        href: "/alwaresidence",
-        category: "Architecture"
-    },
+    
     {
         src: "/ramgarh/header_image.jpg",
         caption: "Awareness Centre, Ramgarh",
@@ -41,12 +66,7 @@ export const project = [
         href: "/conventioncenter",
         category: "Architecture"
     },
-    {
-        src: "/ecoresort/header.jpg",
-        caption: "Ecoresort, Ranchi",
-        href: "/ecoresort",
-        category: "Architecture"
-    },
+    
     {
         src: "/ecoResortPanimur/header.jpg",
         caption: "Eco-Tourism Kiriburu",
@@ -90,12 +110,6 @@ export const project = [
         category: "Architecture"
     },
     {
-        src: "/mgmgate/header.jpg",
-        caption: "MGM Gate, Jamshedpur",
-        href: "/mgmgate",
-        category: "Architecture"
-    },
-    {
         src: "/ministerQuarterTerrace/Header.jpg",
         caption: "Minister Quarter Terrace",
         href: "/ministertarace",
@@ -111,12 +125,6 @@ export const project = [
         src: "/naturopathy/header.jpg",
         caption: "Naturopathy Centre, Ranchi",
         href: "/naturopathy",
-        category: "Architecture"
-    },
-    {
-        src: "/nagpur/header.jpg",
-        caption: "Residence, Nagpur",
-        href: "/residencenagpur",
         category: "Architecture"
     },
     {
@@ -137,12 +145,7 @@ export const project = [
         href: "/springgrand",
         category: "Architecture"
     },
-    {
-        src: "/vanki/header.jpg",
-        caption: "Vaniki, Munger",
-        href: "/vankimunger",
-        category: "Landscape"
-    },
+   
     {
         src: "/vidhansabha/header.jpg",
         caption: "Vidhan Sabha Gate, Ranchi",
