@@ -1,167 +1,146 @@
 export const project = [
     {
         src: "/ecoresort/resort2.jpeg",
-        caption: "Vinaika eco resort, Ranchi",
+        caption: "Vinaika Eco Resort, Ranchi",
         href: "/ecoresort",
-        category: "Architecture"
+        category: ["Landscape"]
     },
-      {
+    {
         src: "/statehouse/house3.jpg",
-        caption: "State guest house, BodhGaya",
+        caption: "State Guest House, BodhGaya",
         href: "/statehouse",
-        category: "Architecture"
+        category: ["Landscape"]
     },
-     {
+    {
         src: "/vanki/munger1.jpg",
         caption: "Vaniki, Munger",
         href: "/vankimunger",
-        category: "Landscape"
+        category: ["Landscape"]
     },
     {
         src: "/nagpur/header.jpg",
         caption: "Residence, Nagpur",
         href: "/residencenagpur",
-        category: "Architecture"
+        category: ["Architecture"]
     },
     {
         src: "/alwar/header.jpg",
         caption: "Alwar Residence",
         href: "/alwaresidence",
-        category: "Architecture"
+        category: ["Architecture"]
     },
     {
         src: "/advantageRelty/project.jpg",
         caption: "Advantage Realty",
         href: "/advantagereality",
-        category: "Architecture"
+        category: ["Landscape"]
     },
     {
         src: "/agarwal/header.jpg",
         caption: "Aggrawal Residence, Patna",
         href: "/agarwalresidence",
-        category: "Interior"
+        category: ["Interior"]
     },
-    
     {
         src: "/ramgarh/header_image.jpg",
         caption: "Awareness Centre, Ramgarh",
         href: "/awarenesscenter",
-        category: "Architecture"
+        category: ["Landscape"]
     },
     {
         src: "/bitSindhriExtension/header.jpg",
         caption: "BIT Sindri Extension",
         href: "/bitextension",
-        category: "Architecture"
+        category: ["Landscape"]
     },
     {
         src: "/park/header.jpg",
         caption: "Children Park, Khunti",
         href: "/childrenpark",
-        category: "Landscape"
+        category: ["Landscape"]
     },
-    {
-        src: "/conventionCenter/header.jpg",
-        caption: "Convention Centre, Sohna",
-        href: "/conventioncenter",
-        category: "Architecture"
-    },
-    
     {
         src: "/ecoResortPanimur/header.jpg",
         caption: "Eco-Tourism Kiriburu",
         href: "/ecoturismkiriburu",
-        category: "Landscape"
+        category: ["Landscape"]
     },
     {
         src: "/ecoTourismPansua/header.jpg",
         caption: "Eco-Tourism, Pansua",
         href: "/ecoturismpansua",
-        category: "Landscape"
+        category: ["Landscape"]
     },
     {
         src: "/farmhouse/header.jpg",
         caption: "Farmhouse Chattarpur, Delhi",
         href: "/farmhousechatarpur",
-        category: "Architecture"
+        category: ["Architecture", "Landscape"] 
     },
     {
         src: "/fogla/header.jpg",
         caption: "Fogla Housing, Ranchi",
         href: "/foglahousing",
-        category: "Architecture"
+        category: ["Landscape"]
     },
     {
         src: "/grouphousing/header.jpg",
         caption: "Group Housing, Bikaner",
         href: "/grouphousing",
-        category: "Architecture"
+        category: ["Landscape"]
     },
     {
         src: "/gurugram/header.jpg",
         caption: "Residence, Gurugram",
         href: "/gurugramresidence",
-        category: "Interior"
+        category: ["Architecture"]
     },
     {
         src: "/jalan/header.jpg",
         caption: "Jalan Bungalow, Lucknow",
         href: "/jalan",
-        category: "Architecture"
+        category: ["Landscape"]
     },
     {
         src: "/ministerQuarterTerrace/Header.jpg",
         caption: "Minister Quarter Terrace",
         href: "/ministertarace",
-        category: "Landscape"
+        category: ["Landscape"]
     },
     {
         src: "/mittal/header.jpg",
         caption: "Mittal Residence, Faridabad",
         href: "/mitalresidence",
-        category: "Interior"
+        category: ["Architecture"]
     },
     {
         src: "/naturopathy/header.jpg",
         caption: "Naturopathy Centre, Ranchi",
         href: "/naturopathy",
-        category: "Architecture"
+        category: ["Architecture"]
     },
     {
         src: "/ecoResortPanimur/header.jpg",
         caption: "Eco-Resort Panimur",
         href: "/resortpanimur",
-        category: "Architecture"
-    },
-    {
-        src: "/shorenhouse/header.jpg",
-        caption: "Shibu Soren Residence, Ranchi",
-        href: "/shiburesidence",
-        category: "Architecture"
+        category: ["Landscape"]
     },
     {
         src: "/springrand/header.jpg",
         caption: "Spring Grand, Lucknow",
         href: "/springgrand",
-        category: "Architecture"
+        category: ["Landscape"]
     },
-   
     {
         src: "/vidhansabha/header.jpg",
         caption: "Vidhan Sabha Gate, Ranchi",
         href: "/vidhansbhagate",
-        category: "Architecture"
+        category: ["Architecture"]
     },
     {
         src: "/villa/header.jpg",
         caption: "Villa, Rudrapur",
         href: "/villarudrapur",
-        category: "Interior"
+        category: ["Architecture"]
     },
-    {
-        src: "/waysideAmenties/header.jpg",
-        caption: "Wayside Amenities",
-        href: "/waysideamenties",
-        category: "Architecture"
-    }
 ];
