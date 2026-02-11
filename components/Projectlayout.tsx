@@ -17,7 +17,7 @@ export default function ProjectLayout() {
   const filteredProjects =
     selectedCategory === "All"
       ? project
-      : project.filter((p) => p.category === selectedCategory);
+      : project.filter(p => p.category.includes(selectedCategory));
 
   return (
     <>
@@ -26,7 +26,7 @@ export default function ProjectLayout() {
         <div
           role="radiogroup"
           aria-label="Project Category Filter"
-          className="flex justify-center items-center space-x-2 md:space-x-4 mb-8 md:mb-5 md:mt-20 mt-10"
+          className="flex justify-center items-center space-x-2 md:space-x-4 mb-8 md:mb-5 md:mt-20 mt-14"
         >
           {categories.map((category) => (
             <div key={category}>
@@ -41,11 +41,10 @@ export default function ProjectLayout() {
               />
               <label
                 htmlFor={`filter-${category}`}
-                className={`px-4 py-2 text-sm md:text-base font-medium rounded-lg transition-colors duration-300 cursor-pointer ${
-                  selectedCategory === category
+                className={`px-4 py-2 text-sm md:text-base font-medium rounded-lg transition-colors duration-300 cursor-pointer ${selectedCategory === category
                     ? "bg-neutral-800 text-white shadow-md" // Style for selected
                     : "bg-neutral-200 text-neutral-600 hover:bg-neutral-300" // Style for not selected
-                }`}
+                  }`}
               >
                 {category}
               </label>

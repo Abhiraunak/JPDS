@@ -31,7 +31,7 @@ export function Appbar() {
     const router = useRouter();
     const handleNavigation = (path: string) => {
         router.push(path);
-        setIsOpen(false);  // Close mobile menu after navigation
+        setIsOpen(false);  
     };
 
     const { scrollY } = useScroll();
@@ -61,12 +61,19 @@ export function Appbar() {
                         duration: 0.3,
                         ease: "linear"
                     }}
-                    className="fixed inset-x-0 top-0 z-50 mx-auto flex max-w-6xl items-center justify-between rounded-full bg-white px-4 py-2 p-2 mt-2"
+                    className="fixed inset-x-0 top-0 z-50 mx-auto flex max-w-6xl items-center justify-between rounded-full bg-white/95 px-4 py-2 p-2 mt-2"
                 >
 
-                    <Link href={"/"}>
-                        <Image src={"/JPDS.png"} height={100} width={100} alt="logo" />
-                    </Link>
+                    <div style={{ height: 'auto', padding: '1rem 0' }}>
+                        <Link href={"/"}>
+                            <Image
+                                src="/JPDS.png"
+                                height={150} 
+                                width={150}
+                                alt="logo"
+                            />
+                        </Link>
+                    </div>
 
                     <div className="flex items-center">
                         {navItems.map((item, idx) => (
@@ -83,7 +90,7 @@ export function Appbar() {
                                         initial={false}
                                         className="h-full w-full absolute inset-0 rounded-md bg-neutral-300" />
                                 )}
-                                <span className="relative z-10"> {item.title}</span>
+                                <span className="relative z-10 text-lg font-semibold tracking-wide leading-0.5"> {item.title}</span>
                             </Link>
                         ))}
                     </div>
@@ -91,47 +98,30 @@ export function Appbar() {
             </Container>
 
             {/* Mobile Logo */}
-            <div className="md:hidden fixed inset-x-0 top-0 z-50 mx-auto flex max-w-xl items-center justify-between rounded-xl bg-neutral-200 px-4 py-2 p-2 mt-2 ml-1 mr-1">
-                <div>
-                    <Link href="/">
-                        <Image src="/JPDS.png" height={60} width={60} alt="logo" />
-                    </Link>
-                </div>
-                <div className="text-black">
-                    <button onClick={() => setIsOpen(!isOpen)}>
-                        {isOpen ? <X size={24} /> : <Menu size={24} />}
-                    </button>
-                </div>
+            {/* Mobile Logo / Header */}
+            <div className="md:hidden fixed inset-x-0 top-0 z-50 mx-auto flex items-center justify-between rounded-xl bg-white/90 backdrop-blur-md px-4 py-3 mt-2 ml-2 mr-2 shadow-sm">
+                <Link href="/">
+                    <Image src="/JPDS.png" height={50} width={50} alt="logo" className="h-10 w-auto" />
+                </Link>
+                <button onClick={() => setIsOpen(!isOpen)} className="text-black">
+                    {isOpen ? <X size={28} /> : <Menu size={28} />}
+                </button>
             </div>
 
             {/* Mobile Navigation */}
             {isOpen && (
-                <div className="md:hidden absolute top-16 left-0 w-full min-h-screen font-sans bg-neutral-100 z-50 py-4 border-b border-zinc-500">
-                    <ul className="flex flex-col space-y-4 text-black font-semibold text-3xl tracking-wider px-6">
-                        <li>
-                            <button
-                                onClick={() => handleNavigation("/projects")}
-                                className="w-full text-left cursor-pointer hover:border-b hover:border-zinc-500 py-2"
-                            >
-                                projects
-                            </button>
-                        </li>
-                        <li>
-                            <button
-                                onClick={() => handleNavigation("/aboutus")}
-                                className="w-full text-left cursor-pointer hover:border-b hover:border-zinc-500 py-2"
-                            >
-                                about
-                            </button>
-                        </li>
-                        <li>
-                            <button
-                                onClick={() => handleNavigation("/contactus")}
-                                className="w-full text-left cursor-pointer  hover:border-b hover:border-zinc-500 py-2"
-                            >
-                                contact
-                            </button>
-                        </li>
+                <div className="md:hidden fixed inset-0 w-full h-screen bg-white z-[49] pt-24 px-6">
+                    <ul className="flex flex-col space-y-6 text-black font-semibold text-3xl tracking-wider">
+                        {navItems.map((item) => (
+                            <li key={item.title}>
+                                <button
+                                    onClick={() => handleNavigation(item.href)}
+                                    className="w-full text-left py-2 border-b border-neutral-100"
+                                >
+                                    {item.title}
+                                </button>
+                            </li>
+                        ))}
                     </ul>
                 </div>
             )}

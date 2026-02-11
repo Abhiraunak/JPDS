@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Page() {
     return (
         <>
-            <main className="relative w-full h-screen selection:none">
+            <main className="relative w-full min-h-screen selection:none">
                 <ImageTitle
                     imageUrl="/ecoresort/resort2.jpeg"
                     headerText="Ecoresort, Ranchi"
@@ -55,14 +55,13 @@ export default function Page() {
             <section className="flex flex-col items-center gap-5 bg-[#F7F4EDff] px-4 pb-20">
                 <ProjectCard imageUrl="/ecoresort/resort1.jpg" />
                 <ProjectCard imageUrl="/ecoresort/resort2.jpeg" />
-                <ProjectCard imageUrl="/ecoresort/resort3.jpg" />
-                <ProjectCard imageUrl="/ecoresort/resort4.jpg" />
                 <ProjectCard imageUrl="/ecoresort/resort5.jpeg" />
+                <ProjectCard imageUrl="/ecoresort/resort4.jpg" />
                 <ProjectCard imageUrl="/ecoresort/resort6.jpeg" />
                 <ProjectCard imageUrl="/ecoresort/resort7.jpeg" />
                 <ProjectCard imageUrl="/ecoresort/resort8.jpg" />
                 <ProjectCard imageUrl="/ecoresort/resort9.jpeg" />
-                <ProjectCard imageUrl="/ecoresort/resort10.jpeg" />
+                <ProjectCard imageUrl="/ecoresort/resort10.jpg" />
                 <ProjectCard imageUrl="/ecoresort/resort11.jpg" />
                 <ProjectCard imageUrl="/ecoresort/resort12.jpg" />
                 <ProjectCard imageUrl="/ecoresort/resort13.jpg" />
@@ -71,6 +70,7 @@ export default function Page() {
                 <ProjectCard imageUrl="/ecoresort/resort15.jpg" />
                 <ProjectCard imageUrl="/ecoresort/resort16.jpg" />
                 <ProjectCard imageUrl="/ecoresort/resort17.jpg" />
+                <ProjectCard imageUrl="/ecoresort/resort18.jpg" />
             </section>
         </>
     )

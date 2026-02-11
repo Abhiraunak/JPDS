@@ -1,8 +1,8 @@
 import Image from "next/image";
 import { FaAddressCard } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
-import { FaFacebook } from "react-icons/fa6";
-import { FaPinterest } from "react-icons/fa";
+// import { FaXTwitter } from "react-icons/fa6";
+// import { FaFacebook } from "react-icons/fa6";
+// import { FaPinterest } from "react-icons/fa";
 import { MdContactPhone } from "react-icons/md";
 import { MdEmail } from "react-icons/md";
 
@@ -24,21 +24,21 @@ export default function Page() {
                             </div>
 
                             <div className="mt-10 flex flex-col gap-6">
-                                <div className="px-6 py-4 bg-[#ccd5ae] text-black rounded-full font-serif shadow-md hover:shadow-lg transition-shadow">
+                                <div className="px-6 py-4 bg-white text-neutral-800 rounded-full font-serif shadow-md hover:shadow-lg transition-shadow">
                                     <h2 className="text-xl font-semibold">New Delhi | NCR</h2>
                                     <div className="flex flex-row items-center mt-1">
                                         <FaAddressCard className="text-lg" />
                                         <p className="pl-2">M11/09/SF, BPTP Park Elite Floor, Sector-83, Faridabad 121002</p>
                                     </div>
                                 </div>
-                                <div className="px-6 py-4 bg-[#ccd5ae] text-black rounded-full font-serif shadow-md hover:shadow-lg transition-shadow">
+                                <div className="px-6 py-4 bg-white text-neutral-800 rounded-full font-serif shadow-md hover:shadow-lg transition-shadow">
                                     <h2 className="text-xl font-semibold">PATNA</h2>
                                     <div className="flex flex-row items-center mt-1">
                                         <FaAddressCard className="text-lg" />
                                         <p className="pl-2">Chankya Nagar, Kumhrar, Patna 800026</p>
                                     </div>
                                 </div>
-                                <div className="px-6 py-4 bg-[#ccd5ae] text-black rounded-full font-serif shadow-md hover:shadow-lg transition-shadow">
+                                <div className="px-6 py-4 bg-white text-neutral-800 rounded-full font-serif shadow-md hover:shadow-lg transition-shadow">
                                     <div className="flex flex-row items-center mt-1">
                                         <MdContactPhone  className="text-lg" />
                                             <p className="pl-2">9717654551 </p>
@@ -48,7 +48,7 @@ export default function Page() {
                                             <p className="pl-2">jay.mnit@gmail.com </p>
                                     </div>
                                 </div>
-                                <div className="px-6 py-4 bg-[#ccd5ae] text-black rounded-full font-serif shadow-md hover:shadow-lg transition-shadow">
+                                {/* <div className="px-6 py-4 bg-neutral-400 text-black rounded-full font-serif shadow-md hover:shadow-lg transition-shadow">
                                     <h2 className="text-xl font-semibold text-center mb-3">Follow us on</h2>
                                     <div className="flex flex-row justify-center gap-8">
                                         <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
@@ -61,7 +61,7 @@ export default function Page() {
                                             <FaPinterest className="text-2xl hover:text-red-600 transition-colors" />
                                         </a>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
 
