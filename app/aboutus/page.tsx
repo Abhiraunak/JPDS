@@ -29,7 +29,7 @@ export default function AboutUsPage() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.3, duration: 1 }}
-          className="space-y-8 text-slate-600 font-light text-lg leading-loose text-justify md:text-center"
+          className="space-y-8 text-neutral-800 font-light text-lg leading-loose text-justify md:text-center"
         >
           <p>
             JPDS Architects, based in Faridabad and serving clients nationwide, is a
@@ -43,10 +43,10 @@ export default function AboutUsPage() {
 
       {/* TEAM SECTION */}
       <section className="bg-[#F7F4ED]">
-        <div className="max-w-7xl mx-auto px-4">
+        <div className="max-w-4xl mx-auto px-4 p-5">
           <div className="relative flex justify-center">
             <ArchitectCard
-              imageSrc="/person1.jpeg"
+              imageSrc="/Person1.jpeg"
               name="Jay Prakash"
               roles={["Principal Architect", "Founder"]}
               company="JPDS"
