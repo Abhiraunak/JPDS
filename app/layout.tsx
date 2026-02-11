@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Roboto } from "next/font/google";
+import { Inter, Roboto, Montserrat } from "next/font/google";
 import "./globals.css";
 import { Appbar } from "@/components/Appbar";
 
@@ -15,6 +15,11 @@ const inter = Inter({
   variable: '--font-Inter',
 
 })
+const montserrat = Montserrat({ 
+  subsets: ["latin"],
+  weight: ["300", "400", "500"],
+  variable: "--font-montserrat",
+});
 
 export const metadata: Metadata = {
   title: "JPDS",
@@ -73,7 +78,7 @@ export default function RootLayout({
     <html lang="en">
       <Appbar />
       <body
-        className={`${robot.variable} ${inter.variable} antialiased`}
+        className={`${robot.variable} ${inter.variable} ${montserrat.variable} antialiased`}
       >
         {children}
       </body>
