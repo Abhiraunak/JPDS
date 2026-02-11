@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Slider from '@/components/Slider';
+import WhatsappButton from '@/components/WhatsappButton';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       {/* Hero Section - Fixed centering */}
       <main className="relative w-full min-h-screen flex items-center justify-center overflow-hidden">
         <Slider />
+        <WhatsappButton />
       </main>
     </div>
   );

@@ -11,15 +11,15 @@ export function Appbar() {
 
     const navItems = [
         {
-            title: 'projects',
+            title: 'Projects',
             href: "/projects"
         },
         {
-            title: 'about',
+            title: 'About Us',
             href: "aboutus"
         },
         {
-            title: 'contact',
+            title: 'Contact',
             href: "contactus"
         }
     ]
