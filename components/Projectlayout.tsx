@@ -8,7 +8,7 @@ import { project } from "./data/Projects";
 
 export default function ProjectLayout() {
   // Define the categories for the filter
-  const categories = ["All", "Architecture", "Interior", "Landscape"];
+  const categories = ["All", "Hospitality","Education & Insitiutions", "Masterplanning","Parks & Public Realm","Residential", ];
 
   // State to keep track of the selected category, "All" is the default
   const [selectedCategory, setSelectedCategory] = useState("All");
@@ -26,7 +26,7 @@ export default function ProjectLayout() {
         <div
           role="radiogroup"
           aria-label="Project Category Filter"
-          className="flex justify-center items-center space-x-2 md:space-x-4 mb-8 md:mb-5 md:mt-20 mt-14"
+          className="flex flex-wrap justify-center items-center gap-3 mb-8 md:mb-10 md:mt-20 mt-14 px-4"
         >
           {categories.map((category) => (
             <div key={category}>

@@ -32,11 +32,18 @@ export default function AboutUsPage() {
           className="space-y-8 text-neutral-800 font-light text-lg leading-loose text-justify md:text-center"
         >
           <p>
-            JPDS Architects, based in Faridabad and serving clients nationwide, is a
-            consultancy firm providing comprehensive design services in architecture,
-            landscape planning, and high-end interior design. Established in 2010,
-            we view every project as a unique opportunity to craft timeless spaces that
-            resonate with their inhabitants.
+            JPDS is a landscape architecture practice based in Faridabad, led by landscape architect Jay Prakash. 
+            The studio works across a diverse range of projects including residential developments, hospitality destinations, 
+            and institutional campuses. With a design approach that responds to site context, climate, 
+            and user experience, the practice focuses on creating thoughtful outdoor environments that are 
+            both functional and aesthetically refined.
+          </p>
+          <p>
+            From luxury resorts and hotels to residential communities and public landscapes, 
+            JPDS integrates natural elements, spatial planning, and sustainable design principles to shape memorable 
+            outdoor spaces. Each project is approached with attention to detail, balancing architecture, 
+            landscape, and ecology to deliver environments that enhance both the built form and the people 
+            who experience them.
           </p>
         </motion.div>
       </section>

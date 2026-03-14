@@ -1,0 +1,66 @@
+import ImageTitle from "@/components/ImageTitle";
+import ProjectCard from "@/components/ProjectCard";
+import Image from "next/image";
+
+export default function Page() {
+    return (
+        <>
+            <main className="relative w-full min-h-screen selection:none">
+                <ImageTitle
+                    imageUrl="/tatvam/image1.png"
+                    headerText="Tatvam Villa, Nanital"
+                />
+            </main>
+
+            <section className="relative bg-[#F7F4EDff] min-h-screen pt-12 pb-20 ">
+                <div className="flex flex-col lg:grid lg:grid-cols-2 gap-10 lg:gap-20 px-4 md:px-8">
+                    {/* Image Column */}
+                    <div className="flex justify-center lg:justify-end lg:items-center lg:pl-5 h-[50vh] lg:h-full">
+                        <div className="relative w-full max-w-xl lg:w-[700px] h-full">
+                            <Image
+                                src={"/tatvam/image5.jpg"}
+                                alt="project image"
+                                fill
+                                className="rounded-md object-cover"
+                            />
+                        </div>
+                    </div>
+
+                    {/* Text Column */}
+                    <div className="text-black lg:pl-5 px-4 md:px-0 flex flex-col justify-center max-w-3xl mx-auto lg:max-w-none">
+                        <h1 className="font-sans font-semibold text-4xl md:text-5xl lg:text-6xl tracking-widest text-center select-none">
+                         Tatvam Villa
+                        </h1>
+
+                        <h2 className="font-Roboto pt-6 lg:pt-10 text-3xl text-center tracking-tighter select-none">
+                            Tatvam Villas is a hospitality landscape project designed to create a serene retreat within a natural forest setting. 
+                        </h2>
+
+                        <p className="font-Inter tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
+                          The master plan integrates a variety of luxurious cottages carefully placed along the site’s natural contours, 
+                          allowing each unit to enjoy privacy, views, and seamless connection with the surrounding landscape. 
+                          The development features a central clubhouse, swimming pool, leisure decks, and landscaped 
+                          open spaces that encourage relaxation and social interaction. Native planting, curvilinear pathways, 
+                          and terraced green spaces respond to the topography, creating a harmonious balance between built form 
+                          and nature while offering guests a tranquil and immersive resort experience.
+                        </p>
+
+                        <div className="pt-5">
+                            <h1 className="font-sans font-medium border-l-2 pl-4 text-lg md:text-xl">
+                              Nanital
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="flex flex-col items-center gap-5 bg-[#F7F4EDff] px-4 pb-20">
+                <ProjectCard imageUrl="/tatvam/image1.png" />
+                <ProjectCard imageUrl="/tatvam/image2.jpg" />
+                <ProjectCard imageUrl="/tatvam/image3.jpg" />
+                <ProjectCard imageUrl="/tatvam/image4.jpg" />
+                <ProjectCard imageUrl="/tatvam/image5.jpg" />
+            </section>
+        </>
+    )
+}
