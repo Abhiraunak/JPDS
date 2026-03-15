@@ -31,7 +31,7 @@ export function Appbar() {
     const router = useRouter();
     const handleNavigation = (path: string) => {
         router.push(path);
-        setIsOpen(false);  
+        setIsOpen(false);
     };
 
     const { scrollY } = useScroll();
@@ -63,16 +63,29 @@ export function Appbar() {
                     }}
                     className="fixed inset-x-0 top-0 z-50 mx-auto flex max-w-6xl items-center justify-between rounded-full bg-white/95 px-4 py-2 p-2 mt-2"
                 >
-
-                    <div style={{ height: 'auto', padding: '1rem 0' }}>
-                        <Link href={"/"}>
+                    <div className="flex flex-col w-[150px]">
+                        <Link href="/" className="block">
                             <Image
                                 src="/JPDS.png"
-                                height={150} 
+                                height={150}
                                 width={150}
                                 alt="logo"
+                                className="w-full h-auto"
                             />
                         </Link>
+
+                        {/* Stretched Tagline */}
+                        <div className="flex w-[85%] mx-auto justify-between items-center mt-1 font-serif font-black uppercase text-black">
+                            <span className="text-[6.5px] leading-none tracking-tighter whitespace-nowrap">
+                                Landscape Architecture
+                            </span>
+                            <span className="text-[10px] leading-none px-1">
+                                •
+                            </span>
+                            <span className="text-[6.5px] leading-none tracking-tighter whitespace-nowrap">
+                                Planning
+                            </span>
+                        </div>
                     </div>
 
                     <div className="flex items-center">
