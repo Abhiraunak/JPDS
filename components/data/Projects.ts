@@ -31,7 +31,7 @@ export const project = [
     },
     
     {
-        src: "/bitSindhriExtension/header.jpg",
+        src: "/bitSindhriExtension/sindri15.jpeg",
         caption: "BIT Sindri Extension",
         href: "/bitextension",
         category: ["Education & Insitiutions"]

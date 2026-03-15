@@ -33,16 +33,16 @@ export default function Page() {
                         </h1>
 
                         <h2 className="font-Roboto pt-6 lg:pt-10 text-3xl text-center tracking-tighter select-none">
-                            BIT Sindri was an extension project in which Some new departments and building 
+                            BIT Sindri was an extension project in which Some new departments and building
                             were added to the previously existing ones where our scope of work was primarily the landscaping.
                         </h2>
 
                         <p className="font-Inter tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
-                            The goal was to Harmonize the design language with the previous so that the overall appearance looks 
-                            contemporary to the existing spaces. Earlier lack of adequate parking spaces was covered in this region 
-                            by designing dedicated area for that and mindfully choosing plantation that are evergreen and less 
-                            leaf-shedding so as to cause least botheration to parked vehicles. Pedestrian pathways, a necessity 
-                            of institutional buildings, were designed with Sun-shading using trees in mind, complemented 
+                            The goal was to Harmonize the design language with the previous so that the overall appearance looks
+                            contemporary to the existing spaces. Earlier lack of adequate parking spaces was covered in this region
+                            by designing dedicated area for that and mindfully choosing plantation that are evergreen and less
+                            leaf-shedding so as to cause least botheration to parked vehicles. Pedestrian pathways, a necessity
+                            of institutional buildings, were designed with Sun-shading using trees in mind, complemented
                             by evergreen shrub and hedges.
                         </p>
 
@@ -56,7 +56,10 @@ export default function Page() {
             </section>
 
             <section className="flex flex-col items-center gap-5 bg-[#F7F4EDff] px-4 pb-20">
-                <ProjectCard imageUrl="/bitSindhriExtension/header.jpg" />
+                <ProjectCard imageUrl="/bitSindhriExtension/sindri13.jpeg" />
+                <ProjectCard imageUrl="/bitSindhriExtension/sindri14.jpeg" />
+                <ProjectCard imageUrl="/bitSindhriExtension/sindri15.jpeg" />
+                <ProjectCard imageUrl="/bitSindhriExtension/sindri16.jpeg" />
                 <ProjectCard imageUrl="/bitSindhriExtension/sindri1.jpg" />
                 <ProjectCard imageUrl="/bitSindhriExtension/sindri2.jpg" />
                 <ProjectCard imageUrl="/bitSindhriExtension/sindri3.jpg" />
@@ -66,10 +69,10 @@ export default function Page() {
                 <ProjectCard imageUrl="/bitSindhriExtension/sindri7.jpg" />
                 <ProjectCard imageUrl="/bitSindhriExtension/sindri8.jpg" />
                 <ProjectCard imageUrl="/bitSindhriExtension/sindri9.jpg" />
-                <ProjectCard imageUrl="/bitSindhriExtension/sindri10.jpg"/>
-                <ProjectCard imageUrl="/bitSindhriExtension/sindri11.jpg"/>
-                <ProjectCard imageUrl="/bitSindhriExtension/sindri12.jpg"/>
-               
+                <ProjectCard imageUrl="/bitSindhriExtension/sindri10.jpg" />
+                <ProjectCard imageUrl="/bitSindhriExtension/sindri11.jpg" />
+                <ProjectCard imageUrl="/bitSindhriExtension/sindri12.jpg" />
+
             </section>
         </>
     )

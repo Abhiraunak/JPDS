@@ -8,7 +8,7 @@ import { project } from "./data/Projects";
 
 export default function ProjectLayout() {
   // Define the categories for the filter
-  const categories = ["All", "Hospitality","Education & Insitiutions", "Masterplanning","Parks & Public Realm","Residential", ];
+  const categories = ["All", "Hospitality", "Education & Insitiutions", "Masterplanning", "Parks & Public Realm", "Residential",];
 
   // State to keep track of the selected category, "All" is the default
   const [selectedCategory, setSelectedCategory] = useState("All");
@@ -23,31 +23,36 @@ export default function ProjectLayout() {
     <>
       <Container className="max-w-6xl mt-10 overflow-hidden">
         {/* Filter Radio Buttons Section */}
+        {/* Filter Radio Buttons Section */}
         <div
           role="radiogroup"
           aria-label="Project Category Filter"
           className="flex flex-wrap justify-center items-center gap-3 mb-8 md:mb-10 md:mt-20 mt-14 px-4"
         >
           {categories.map((category) => (
-            <div key={category}>
+            <div key={category} className="relative">
               <input
                 type="radio"
+                title="select"
                 id={`filter-${category}`}
                 name="project-filter"
                 value={category}
-                className="sr-only" // Hides the default radio button
+                className="sr-only"
                 checked={selectedCategory === category}
                 onChange={(e) => setSelectedCategory(e.target.value)}
               />
-              <label
+              <motion.label
                 htmlFor={`filter-${category}`}
-                className={`px-4 py-2 text-sm md:text-base font-medium rounded-lg transition-colors duration-300 cursor-pointer ${selectedCategory === category
-                    ? "bg-neutral-800 text-white shadow-md" // Style for selected
-                    : "bg-neutral-200 text-neutral-600 hover:bg-neutral-300" // Style for not selected
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                transition={{ type: "spring", stiffness: 400, damping: 17 }}
+                className={`block px-4 py-2 text-sm md:text-base font-medium rounded-lg transition-colors duration-300 cursor-pointer text-center select-none ${selectedCategory === category
+                    ? "bg-neutral-800 text-white shadow-md"
+                    : "bg-neutral-200 text-neutral-600 hover:bg-neutral-300"
                   }`}
               >
                 {category}
-              </label>
+              </motion.label>
             </div>
           ))}
         </div>
