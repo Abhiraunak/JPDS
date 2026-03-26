@@ -27,7 +27,7 @@ export default function ProjectLayout() {
         <div
           role="radiogroup"
           aria-label="Project Category Filter"
-          className="flex flex-wrap justify-center items-center gap-3 mb-8 md:mb-10 md:mt-20 mt-14 px-4"
+          className="flex flex-wrap justify-center items-center gap-3 mb-8 md:mb-10 md:mt-25 mt-14 px-4"
         >
           {categories.map((category) => (
             <div key={category} className="relative">
