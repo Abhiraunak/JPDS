@@ -13,7 +13,7 @@ export default function Page() {
             <div className="w-full md:w-[350px] shrink-0 flex flex-col">
                 <div className="relative w-full h-[450px] bg-gray-100">
                     <Image
-                        src="/employee/beauty.png"
+                        src="/employee/beauty.jpeg"
                         alt="beauty"
                         fill
                         className="object-cover"

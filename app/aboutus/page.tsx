@@ -98,7 +98,7 @@ export default function AboutUsPage() {
           {/* Operations - Left */}
           <div className="flex justify-center md:justify-start w-full md:-mt-16 lg:-mt-20">
             <ArchitectCard
-              imageSrc="/employee/beauty.png"
+              imageSrc="/employee/beauty.jpeg"
               name="Beauty Kumari"
               roles={["Systems & Operations Manager"]}
               link="/beauty"
