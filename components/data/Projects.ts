@@ -69,7 +69,7 @@ export const project = [
     {
         src: "/springrand/header.jpg",
         caption: "Spring Grand, Lucknow",
-        href: "/springgrand",
+        href: "/springrand",
         category: ["Masterplanning"]
     },
     {
