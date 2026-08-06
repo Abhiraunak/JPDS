@@ -7,25 +7,24 @@ const robot = Roboto({
   subsets: ['latin'],
   weight: ['400'],
   variable: '--font-Roboto',
-})
+});
+
 const montserrat = Montserrat({
   subsets: ["latin"],
   weight: ["300", "400", "500"],
+  variable: '--font-Montserrat', 
 });
-
 
 const inter = Inter({
   subsets: ['latin'],
   weight: ['400', '500', '600', '700', '800'],
   variable: '--font-Inter',
-
-})
-
+});
 
 export const metadata: Metadata = {
   title: "JPDS",
   description:
-    "JPDS is a architecture design studio specializing in high-end residential architecture, landscape design, urban planning, public art, and environmental solutions. Based in Faridabad, serving clients pan India.",
+    "JPDS is an architecture design studio specializing in high-end residential architecture, landscape design, urban planning, public art, and environmental solutions. Based in Faridabad, serving clients pan India.",
   keywords: [
     "architecture projects",
     "interior design",
@@ -50,7 +49,7 @@ export const metadata: Metadata = {
     siteName: "JPDS",
     images: [
       {
-        url: "https://www.jpds.in/JPDS.png", // <- updated image
+        url: "https://www.jpds.in/JPDS.png",
         width: 1200,
         height: 630,
         alt: "JPDS Logo",
@@ -66,7 +65,7 @@ export const metadata: Metadata = {
     images: ["https://www.jpds.in/JPDS.png"],
   },
   icons: {
-    icon: "/favicon.ico", // optional favicon
+    icon: "/favicon.ico", 
   },
 };
 
@@ -77,10 +76,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Appbar />
       <body
         className={`${robot.variable} ${inter.variable} ${montserrat.variable} antialiased`}
       >
+        <Appbar />
         {children}
       </body>
     </html>
