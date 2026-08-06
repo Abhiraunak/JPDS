@@ -1,16 +1,53 @@
 "use client";
+
 import ArchitectCard from "@/components/ArchitectCard";
 import { motion } from "framer-motion";
-import { Montserrat } from "next/font/google";
 
-const montserrat = Montserrat({
-  subsets: ["latin"],
-  weight: ["300", "400", "500"],
-});
+// OPTIMIZATION 1: Extract data outside the component
+// This keeps your JSX clean and makes updating the team effortless.
+const TEAM_MEMBERS = [
+  {
+    imageSrc: "/Person1.jpeg",
+    name: "Jay Prakash",
+    roles: ["Principal Architect", "Founder", "JPDS"],
+    link: "/Jayprakash",
+  },
+  {
+    imageSrc: "/employee/bijayprakash.png",
+    name: "Bijay Prakash",
+    roles: ["Environmental Planner", "Site Planning Strategies"],
+    link: "/bijay",
+  },
+  {
+    imageSrc: "/employee/harshit.png",
+    name: "Harshit",
+    roles: ["Architect", "Design Team"],
+    link: "/harshit",
+  },
+  {
+    imageSrc: "/employee/prit.png",
+    name: "Prit Pranay",
+    roles: ["Project Architect"],
+    link: "/prit",
+  },
+  {
+    imageSrc: "/employee/beauty.png",
+    name: "Beauty Kumari",
+    roles: ["Systems & Operations Manager"],
+    link: "/beauty",
+  },
+  {
+    imageSrc: "/employee/abhishek.png",
+    name: "Abhishek Kumar",
+    roles: ["Full-stack Developer", "Digital Tools & Systems"],
+    link: "/abhishek",
+  },
+];
 
 export default function AboutUsPage() {
   return (
-    <div className={`min-h-screen bg-white ${montserrat.className} overflow-x-hidden`}>
+    <div className={`min-h-screen bg-neutral-100 overflow-x-hidden`}>
+      
       {/* ABOUT SECTION */}
       <section className="pt-24 md:pt-32 pb-16 md:pb-24 px-6 md:px-12 max-w-5xl mx-auto">
         <motion.h1
@@ -51,71 +88,30 @@ export default function AboutUsPage() {
       <section className="py-12 md:py-20 px-6 md:px-12">
         <div className="max-w-5xl mx-auto flex flex-col gap-12 md:gap-0">
           
-          {/* Principal - Left */}
-          <div className="flex justify-center md:justify-start w-full">
-            <ArchitectCard
-              imageSrc="/Person1.jpeg"
-              name="Jay Prakash"
-              roles={["Principal Architect", "Founder", "JPDS"]}
-              link="/Jayprakash"
-              company={""}
-            />
-          </div>
-
-          {/* Environmental Planner - Right */}
-          <div className="flex justify-center md:justify-end w-full md:-mt-32 lg:-mt-40">
-            <ArchitectCard
-              imageSrc="/employee/bijayprakash.png"
-              name="Bijay Prakash"
-              roles={["Environmental Planner", "Site Planning Strategies"]}
-              link="/bijay"
-              company={""}
-            />
-          </div>
-
-          {/* Architect - Left */}
-          <div className="flex justify-center md:justify-start w-full md:-mt-16 lg:-mt-20">
-            <ArchitectCard
-              imageSrc="/employee/harshit.png"
-              name="Harshit"
-              roles={["Architect", "Design Team"]}
-              link="/harshit"
-              company={""}
-            />
-          </div>
-
-          {/* Project Architect - Right */}
-          <div className="flex justify-center md:justify-end w-full md:-mt-32 lg:-mt-40">
-            <ArchitectCard
-              imageSrc="/employee/prit.png"
-              name="Prit Pranay"
-              roles={["Project Architect"]}
-              link="/prit"
-              company={""}
-            />
-          </div>
-
-          {/* Operations - Left */}
-          <div className="flex justify-center md:justify-start w-full md:-mt-16 lg:-mt-20">
-            <ArchitectCard
-              imageSrc="/employee/beauty.jpeg"
-              name="Beauty Kumari"
-              roles={["Systems & Operations Manager"]}
-              link="/beauty"
-              company={""}
-            />
-          </div>
-
-          {/* Developer - Right */}
-          <div className="flex justify-center md:justify-end w-full md:-mt-32 lg:-mt-40">
-            <ArchitectCard
-              imageSrc="/employee/abhishek.png"
-              name="Abhishek Kumar"
-              roles={["Full-stack Developer", "Digital Tools & Systems"]}
-              link="/abhishek"
-              company={""}
-            />
-          </div>
+          {/* OPTIMIZATION 2: Map through the array and calculate layout dynamically */}
+          {TEAM_MEMBERS.map((member, index) => {
+            const isEven = index % 2 === 0; // True for Left side (0, 2, 4), False for Right side (1, 3, 5)
+            const isFirst = index === 0;
+            
+            return (
+              <div
+                key={member.name}
+                className={`flex w-full justify-center ${
+                  isEven
+                    ? `md:justify-start ${!isFirst ? "md:-mt-16 lg:-mt-20" : ""}`
+                    : "md:justify-end md:-mt-32 lg:-mt-40"
+                }`}
+              >
+                <ArchitectCard
+                  imageSrc={member.imageSrc}
+                  name={member.name}
+                  roles={member.roles}
+                  link={member.link}
+                  company=""
+                />
+              </div>
+            );
+          })}
 
         </div>
       </section>

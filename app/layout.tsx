@@ -8,6 +8,11 @@ const robot = Roboto({
   weight: ['400'],
   variable: '--font-Roboto',
 })
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  weight: ["300", "400", "500"],
+});
+
 
 const inter = Inter({
   subsets: ['latin'],
@@ -15,11 +20,7 @@ const inter = Inter({
   variable: '--font-Inter',
 
 })
-const montserrat = Montserrat({ 
-  subsets: ["latin"],
-  weight: ["300", "400", "500"],
-  variable: "--font-montserrat",
-});
+
 
 export const metadata: Metadata = {
   title: "JPDS",
