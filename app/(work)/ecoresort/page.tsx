@@ -2,25 +2,55 @@ import ImageTitle from "@/components/ImageTitle";
 import ProjectCard from "@/components/ProjectCard";
 import Image from "next/image";
 
+// 1. Define your Cloudinary base URL (using your actual cloud name)
+const CLOUDINARY_BASE_URL = "https://res.cloudinary.com/rhvflcf6/image/upload";
+
+// 2. Map all your project images into an array. 
+// Note: Insert your actual version numbers (e.g., /v1786083076/) if Cloudinary requires them, 
+// or keep it like this if you disabled strict versioning.
+const PROJECT_IMAGES = [
+    `${CLOUDINARY_BASE_URL}/v1786091895/resort1_pte3ul.jpg`,
+    `${CLOUDINARY_BASE_URL}/v1786091896/resort2_snxdpn.jpg`,
+    `${CLOUDINARY_BASE_URL}/v1786091919/resort4_gp4sao.jpg`,
+    `${CLOUDINARY_BASE_URL}/v1786091914/resort10_g7tmul.jpg`,
+    `${CLOUDINARY_BASE_URL}/v1786091912/resort8_ftmz9r.jpg`,
+    `${CLOUDINARY_BASE_URL}/v1786091909/resort18_vtumbi.jpg`,
+    `${CLOUDINARY_BASE_URL}/v1786091905/resort17_aavkmr.jpg`,
+    `${CLOUDINARY_BASE_URL}/v1786091905/resort16_tsgdfr.jpg`,
+    `${CLOUDINARY_BASE_URL}/v1786091904/resort15_rhhi2p.jpg`,
+    `${CLOUDINARY_BASE_URL}/v1786091901/resort14_y6hnl4.jpg`,
+    `${CLOUDINARY_BASE_URL}/v1786091901/resort13_a7hnj8.jpg`,
+    `${CLOUDINARY_BASE_URL}/v1786091901/resort13_a7hnj8.jpg`,
+    `${CLOUDINARY_BASE_URL}/v1786091900/resort11_grpcwj.jpg`,
+    `${CLOUDINARY_BASE_URL}/v1786091900/resort12_c4roke.jpg`,
+    `${CLOUDINARY_BASE_URL}/v1786091896/resort6_zoblv2.jpg`,
+    `${CLOUDINARY_BASE_URL}/v1786091896/resort2_snxdpn.jpg`,
+    `${CLOUDINARY_BASE_URL}/v1786091894/header_aprpma.jpg`,
+];
+
 export default function Page() {
     return (
         <>
-            <main className="relative w-full min-h-screen selection:none">
+            <main className="relative w-full min-h-screen select-none">
+                {/* 3. Pass the Cloudinary URL to the hero image */}
                 <ImageTitle
-                    imageUrl="/ecoresort/resort2.jpeg"
+                    imageUrl={`${CLOUDINARY_BASE_URL}/v1786091896/resort2_snxdpn.jpg`}
                     headerText="Ecoresort, Ranchi"
                 />
             </main>
 
-            <section className="relative bg-[#F7F4EDff] min-h-screen pt-12 pb-20 ">
+            <section className="relative bg-[#F7F4EDff] min-h-screen pt-12 pb-20">
                 <div className="flex flex-col lg:grid lg:grid-cols-2 gap-10 lg:gap-20 px-4 md:px-8">
+                    
                     {/* Image Column */}
                     <div className="flex justify-center lg:justify-end lg:items-center lg:pl-5 h-[50vh] lg:h-full">
                         <div className="relative w-full max-w-xl lg:w-[700px] h-full">
                             <Image
-                                src={"/ecoresort/resort1.jpg"}
-                                alt="project image"
+                                // 4. Cloudinary URL for the main section image
+                                src={`${CLOUDINARY_BASE_URL}/v1786091896/resort2_snxdpn.jpg`}
+                                alt="Ecoresort landscape project with swimming pool"
                                 fill
+                                sizes="(max-width: 1024px) 100vw, 50vw" // Required when using fill
                                 className="rounded-md object-cover"
                             />
                         </div>
@@ -29,7 +59,7 @@ export default function Page() {
                     {/* Text Column */}
                     <div className="text-black lg:pl-5 px-4 md:px-0 flex flex-col justify-center max-w-3xl mx-auto lg:max-w-none">
                         <h1 className="font-sans font-semibold text-4xl md:text-5xl lg:text-6xl tracking-widest text-center select-none">
-                         Ecoresort
+                            Ecoresort
                         </h1>
 
                         <h2 className="font-Roboto pt-6 lg:pt-10 text-3xl text-center tracking-tighter select-none">
@@ -38,14 +68,14 @@ export default function Page() {
                         </h2>
 
                         <p className="font-Inter tracking-normal pt-6 lg:pt-10 text-base md:text-lg text-left select-none">
-                          To counter this we created a Sloped water fountain that drained water down Like a fabric from the Pool area.
-                          It also housed splash pools for kids and seating area for adults with a Bar area directly opening 
-                          into pool for those who wanted to have some drinks while swimming.
+                            To counter this we created a sloped water fountain that drained water down like a fabric from the pool area.
+                            It also housed splash pools for kids and a seating area for adults with a bar area directly opening 
+                            into the pool for those who wanted to have some drinks while swimming.
                         </p>
 
                         <div className="pt-5">
-                            <h1 className="font-sans font-medium border-l-2 pl-4 text-lg md:text-xl">
-                              Ranchi
+                            <h1 className="font-sans font-medium border-l-2 border-black pl-4 text-lg md:text-xl">
+                                Ranchi
                             </h1>
                         </div>
                     </div>
@@ -53,25 +83,16 @@ export default function Page() {
             </section>
 
             <section className="flex flex-col items-center gap-5 bg-[#F7F4EDff] px-4 pb-20">
-                <ProjectCard imageUrl="/ecoresort/resort1.jpg" />
-                <ProjectCard imageUrl="/ecoresort/resort2.jpeg" />
-                <ProjectCard imageUrl="/ecoresort/resort5.jpeg" />
-                <ProjectCard imageUrl="/ecoresort/resort4.jpg" />
-                <ProjectCard imageUrl="/ecoresort/resort6.jpeg" />
-                <ProjectCard imageUrl="/ecoresort/resort7.jpeg" />
-                <ProjectCard imageUrl="/ecoresort/resort8.jpg" />
-                <ProjectCard imageUrl="/ecoresort/resort9.jpeg" />
-                <ProjectCard imageUrl="/ecoresort/resort10.jpg" />
-                <ProjectCard imageUrl="/ecoresort/resort11.jpg" />
-                <ProjectCard imageUrl="/ecoresort/resort12.jpg" />
-                <ProjectCard imageUrl="/ecoresort/resort13.jpg" />
-                <ProjectCard imageUrl="/ecoresort/resort18.jpg" />
-                <ProjectCard imageUrl="/ecoresort/resort14.jpg" />
-                <ProjectCard imageUrl="/ecoresort/resort15.jpg" />
-                <ProjectCard imageUrl="/ecoresort/resort16.jpg" />
-                <ProjectCard imageUrl="/ecoresort/resort17.jpg" />
-                <ProjectCard imageUrl="/ecoresort/resort18.jpg" />
+                {/* 5. Map through Cloudinary URLs and pass navigation props to ProjectCard */}
+                {PROJECT_IMAGES.map((imageUrl, index) => (
+                    <ProjectCard 
+                        key={index} 
+                        imageUrl={imageUrl} 
+                        allImages={PROJECT_IMAGES} // Enables next/prev gallery navigation
+                        index={index}              // Tells the modal which image was clicked
+                    />
+                ))}
             </section>
         </>
-    )
+    );
 }

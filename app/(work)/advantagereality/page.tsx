@@ -2,25 +2,40 @@ import ImageTitle from "@/components/ImageTitle";
 import ProjectCard from "@/components/ProjectCard";
 import Image from "next/image";
 
+// 1. Define your Cloudinary URLs here at the top
+const CLOUDINARY_BASE_URL = "https://res.cloudinary.com/rhvflcf6/image/upload";
+
+const PROJECT_IMAGES = [
+    `${CLOUDINARY_BASE_URL}/v1786083076/advantage1_fpa9x9.jpg`,
+    // Removed the broken v123456789 fake URL that was here
+    `${CLOUDINARY_BASE_URL}/v1786083076/advantage2_b87euu.jpg`,
+    `${CLOUDINARY_BASE_URL}/v1786083076/advantage3_qfnf2h.jpg`,
+    `${CLOUDINARY_BASE_URL}/v1786083078/advantage5_fxaqhl.jpg`,
+];
+
 export default function Page() {
     return (
         <>
-            <main className="relative w-full h-screen select-none ">
+            <main className="relative w-full h-screen select-none">
+                {/* 2. Pass the Cloudinary URL to your ImageTitle component */}
                 <ImageTitle
-                    imageUrl="/advantageRelty/project.jpg"
+                    imageUrl={`${CLOUDINARY_BASE_URL}/v1786083076/advantage1_fpa9x9.jpg`}
                     headerText="Advantage Realty"
                 />
             </main>
 
             <section className="relative bg-[#F7F4EDff] min-h-screen pt-12 pb-20">
                 <div className="flex flex-col lg:grid lg:grid-cols-2 gap-10 lg:gap-20 px-4 md:px-8">
+
                     {/* Image Column */}
                     <div className="flex justify-center lg:justify-end lg:items-center lg:pl-5 h-[50vh] lg:h-full">
                         <div className="relative w-full max-w-xl lg:w-[700px] h-full">
                             <Image
-                                src={"/advantageRelty/advantage1.jpg"}
-                                alt="project image"
+                                // 3. FIXED: Replaced the fake v123456789 URL with your actual uploaded image URL
+                                src={`${CLOUDINARY_BASE_URL}/v1786083076/advantage1_fpa9x9.jpg`}
+                                alt="Advantage Realty landscape design"
                                 fill
+                                sizes="(max-width: 1024px) 100vw, 50vw" // Required when using fill
                                 className="rounded-md object-cover"
                             />
                         </div>
@@ -46,7 +61,7 @@ export default function Page() {
                         </p>
 
                         <div className="pt-5">
-                            <h1 className="font-sans font-medium border-l-2 pl-4 text-lg md:text-xl">
+                            <h1 className="font-sans font-medium border-l-2 border-black pl-4 text-lg md:text-xl">
                                 Silchar
                             </h1>
                         </div>
@@ -55,12 +70,15 @@ export default function Page() {
             </section>
 
             <section className="flex flex-col items-center gap-5 bg-[#F7F4EDff] px-4 pb-20">
-                <ProjectCard imageUrl="/advantageRelty/advantage1.jpg" />
-                <ProjectCard imageUrl="/advantageRelty/advantage2.jpg" />
-                <ProjectCard imageUrl="/advantageRelty/advantage3.jpg" />
-                <ProjectCard imageUrl="/advantageRelty/advantage4.jpg" />
-                <ProjectCard imageUrl="/advantageRelty/advantage5.jpg" />
+                {PROJECT_IMAGES.map((imageUrl, index) => (
+                    <ProjectCard
+                        key={index}
+                        imageUrl={imageUrl}
+                        allImages={PROJECT_IMAGES} // Pass the full array here
+                        index={index}              // Pass the current index here
+                    />
+                ))}
             </section>
         </>
-    )
+    );
 }
