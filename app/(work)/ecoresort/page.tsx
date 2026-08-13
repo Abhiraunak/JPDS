@@ -2,7 +2,7 @@ import ImageTitle from "@/components/ImageTitle";
 import ProjectCard from "@/components/ProjectCard";
 import Image from "next/image";
 
-const CLOUDINARY_BASE_URL = "https://res.cloudinary.com/rhvflcf6/image/upload";
+const CLOUDINARY_BASE_URL = process.env.NEXT_PUBLIC_CLOUDINARY_BASE_URL;
 
 const PROJECT_IMAGES = [
     `${CLOUDINARY_BASE_URL}/v1786091895/resort1_pte3ul.jpg`,

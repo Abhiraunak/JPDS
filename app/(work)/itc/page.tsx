@@ -2,12 +2,21 @@ import ImageTitle from "@/components/ImageTitle";
 import ProjectCard from "@/components/ProjectCard";
 import Image from "next/image";
 
+const CLOUDINARY_BASE_URL = process.env.NEXT_PUBLIC_CLOUDINARY_BASE_URL;
+
+const PROJECT_IMAGES = [
+    `${CLOUDINARY_BASE_URL}/v1786593338/image1_vv6mrk.jpg`,
+    `${CLOUDINARY_BASE_URL}/v1786593345/image2_wwteor.jpg`,
+    `${CLOUDINARY_BASE_URL}/v1786593351/image3_aivyxt.jpg`,
+    `${CLOUDINARY_BASE_URL}/v1786593372/image4_sui5bq.jpg`,
+];
+
 export default function Page() {
     return (
         <>
             <main className="relative w-full min-h-screen selection:none">
                 <ImageTitle
-                    imageUrl="/itc/image3.jpg"
+                    imageUrl= {`${CLOUDINARY_BASE_URL}/v1786593351/image3_aivyxt.jpg`}
                     headerText="ITC, Ayodhya"
                 />
             </main>
@@ -18,7 +27,7 @@ export default function Page() {
                     <div className="flex justify-center lg:justify-end lg:items-center lg:pl-5 h-[50vh] lg:h-full">
                         <div className="relative w-full max-w-xl lg:w-[700px] h-full">
                             <Image
-                                src={"/itc/image2.jpg"}
+                                src={`${CLOUDINARY_BASE_URL}/v1786593345/image2_wwteor.jpg`}
                                 alt="project image"
                                 fill
                                 className="rounded-md object-cover"
@@ -57,10 +66,14 @@ export default function Page() {
             </section>
 
             <section className="flex flex-col items-center gap-5 bg-[#F7F4EDff] px-4 pb-20">
-                <ProjectCard imageUrl="/itc/image1.jpg" />
-                <ProjectCard imageUrl="/itc/image2.jpg" />
-                <ProjectCard imageUrl="/itc/image3.jpg" />
-                <ProjectCard imageUrl="/itc/image4.jpg" />
+                {PROJECT_IMAGES.map((imageUrl, index) => (
+                    <ProjectCard 
+                        key={index} 
+                        imageUrl={imageUrl} 
+                        allImages={PROJECT_IMAGES} // Enables next/prev gallery navigation
+                        index={index}              // Tells the modal which image was clicked
+                    />
+                ))}
             </section>
         </>
     )
