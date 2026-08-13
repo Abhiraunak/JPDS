@@ -2,12 +2,8 @@ import ImageTitle from "@/components/ImageTitle";
 import ProjectCard from "@/components/ProjectCard";
 import Image from "next/image";
 
-// 1. Define your Cloudinary base URL (using your actual cloud name)
 const CLOUDINARY_BASE_URL = "https://res.cloudinary.com/rhvflcf6/image/upload";
 
-// 2. Map all your project images into an array. 
-// Note: Insert your actual version numbers (e.g., /v1786083076/) if Cloudinary requires them, 
-// or keep it like this if you disabled strict versioning.
 const PROJECT_IMAGES = [
     `${CLOUDINARY_BASE_URL}/v1786091895/resort1_pte3ul.jpg`,
     `${CLOUDINARY_BASE_URL}/v1786091896/resort2_snxdpn.jpg`,
@@ -32,7 +28,6 @@ export default function Page() {
     return (
         <>
             <main className="relative w-full min-h-screen select-none">
-                {/* 3. Pass the Cloudinary URL to the hero image */}
                 <ImageTitle
                     imageUrl={`${CLOUDINARY_BASE_URL}/v1786091896/resort2_snxdpn.jpg`}
                     headerText="Ecoresort, Ranchi"
@@ -46,7 +41,6 @@ export default function Page() {
                     <div className="flex justify-center lg:justify-end lg:items-center lg:pl-5 h-[50vh] lg:h-full">
                         <div className="relative w-full max-w-xl lg:w-[700px] h-full">
                             <Image
-                                // 4. Cloudinary URL for the main section image
                                 src={`${CLOUDINARY_BASE_URL}/v1786091896/resort2_snxdpn.jpg`}
                                 alt="Ecoresort landscape project with swimming pool"
                                 fill
@@ -83,7 +77,6 @@ export default function Page() {
             </section>
 
             <section className="flex flex-col items-center gap-5 bg-[#F7F4EDff] px-4 pb-20">
-                {/* 5. Map through Cloudinary URLs and pass navigation props to ProjectCard */}
                 {PROJECT_IMAGES.map((imageUrl, index) => (
                     <ProjectCard 
                         key={index} 

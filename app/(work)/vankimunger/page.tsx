@@ -2,12 +2,31 @@ import ImageTitle from "@/components/ImageTitle";
 import ProjectCard from "@/components/ProjectCard";
 import Image from "next/image";
 
+const CLOUDINARY_BASE_URL = "https://res.cloudinary.com/rhvflcf6/image/upload";
+
+const PROJECT_IMAGES = [
+    `${CLOUDINARY_BASE_URL}/v1786591880/munger1_o9fxj6.jpg`,
+    `${CLOUDINARY_BASE_URL}/v1786591884/munger2_crmsrg.jpg`,
+    `${CLOUDINARY_BASE_URL}/v1786591879/munger3_ie9zk7.jpg`,
+    `${CLOUDINARY_BASE_URL}/v1786591867/munger4_ghrrcc.jpg`,
+    `${CLOUDINARY_BASE_URL}/v1786591887/munger5_ipso0c.jpg`,
+    `${CLOUDINARY_BASE_URL}/v1786591877/munger6_x26i07.jpg`,
+    `${CLOUDINARY_BASE_URL}/v1786591878/munger7_g77pgl.jpg`,
+    `${CLOUDINARY_BASE_URL}/v1786591887/munger8_arehxd.jpg`,
+    `${CLOUDINARY_BASE_URL}/v1786591917/munger9_nytcom.jpg`,
+    `${CLOUDINARY_BASE_URL}/v1786591999/munger10_oeqbyh.jpg`,
+    `${CLOUDINARY_BASE_URL}/v1786591946/munger11_kb44z9.jpg`,
+    `${CLOUDINARY_BASE_URL}/v1786592048/munger12_mou1sm.jpg`,
+    `${CLOUDINARY_BASE_URL}/v1786592049/munger14_t1fs8x.jpg`,
+    `${CLOUDINARY_BASE_URL}/v1786591929/munger15_n7yzoy.jpg`,
+];
+
 export default function Page() {
     return (
         <>
             <main className="relative w-full h-screen selection:none">
                 <ImageTitle
-                    imageUrl="/vanki/munger1.jpg"
+                    imageUrl={`${CLOUDINARY_BASE_URL}/v1786591880/munger1_o9fxj6.jpg`}
                     headerText="Vaniki, Munger"
                 />
             </main>
@@ -18,7 +37,7 @@ export default function Page() {
                     <div className="flex justify-center lg:justify-end lg:items-center lg:pl-5 h-[50vh] lg:h-full">
                         <div className="relative w-full max-w-xl lg:w-[700px] h-full">
                             <Image
-                                src={"/vanki/munger15.jpg"}
+                                src={`${CLOUDINARY_BASE_URL}/v1786591880//munger5_ipso0c.jpg`}
                                 alt="project image"
                                 fill
                                 className="rounded-md object-cover"
@@ -52,21 +71,15 @@ export default function Page() {
                 </div>
             </section>
 
-            <section className="flex flex-col items-center gap-5 bg-[#F7F4EDff] px-4 pb-20">
-                <ProjectCard imageUrl="/vanki/munger1.jpg" />
-                <ProjectCard imageUrl="/vanki/munger2.jpg" />
-                <ProjectCard imageUrl="/vanki/munger3.jpg" />
-                <ProjectCard imageUrl="/vanki/munger4.jpg" />
-                <ProjectCard imageUrl="/vanki/munger5.jpg" />
-                <ProjectCard imageUrl="/vanki/munger6.jpg" />
-                <ProjectCard imageUrl="/vanki/munger7.jpg" />
-                <ProjectCard imageUrl="/vanki/munger8.jpg" />
-                <ProjectCard imageUrl="/vanki/munger9.jpg" />
-                <ProjectCard imageUrl="/vanki/munger10.jpg" />
-                <ProjectCard imageUrl="/vanki/munger11.jpg" />
-                <ProjectCard imageUrl="/vanki/munger12.jpg" />
-                <ProjectCard imageUrl="/vanki/munger13.jpg" />
-                <ProjectCard imageUrl="/vanki/munger14.jpg" />
+              <section className="flex flex-col items-center gap-5 bg-[#F7F4EDff] px-4 pb-20">
+                {PROJECT_IMAGES.map((imageUrl, index) => (
+                    <ProjectCard
+                        key={index}
+                        imageUrl={imageUrl}
+                        allImages={PROJECT_IMAGES} // Enables next/prev gallery navigation
+                        index={index}              // Tells the modal which image was clicked
+                    />
+                ))}
             </section>
         </>
     )

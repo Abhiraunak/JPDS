@@ -1,13 +1,10 @@
 import ImageTitle from "@/components/ImageTitle";
 import ProjectCard from "@/components/ProjectCard";
 import Image from "next/image";
-
-// 1. Define your Cloudinary URLs here at the top
 const CLOUDINARY_BASE_URL = "https://res.cloudinary.com/rhvflcf6/image/upload";
 
 const PROJECT_IMAGES = [
     `${CLOUDINARY_BASE_URL}/v1786083076/advantage1_fpa9x9.jpg`,
-    // Removed the broken v123456789 fake URL that was here
     `${CLOUDINARY_BASE_URL}/v1786083076/advantage2_b87euu.jpg`,
     `${CLOUDINARY_BASE_URL}/v1786083076/advantage3_qfnf2h.jpg`,
     `${CLOUDINARY_BASE_URL}/v1786083078/advantage5_fxaqhl.jpg`,
@@ -17,7 +14,6 @@ export default function Page() {
     return (
         <>
             <main className="relative w-full h-screen select-none">
-                {/* 2. Pass the Cloudinary URL to your ImageTitle component */}
                 <ImageTitle
                     imageUrl={`${CLOUDINARY_BASE_URL}/v1786083076/advantage1_fpa9x9.jpg`}
                     headerText="Advantage Realty"
@@ -31,7 +27,6 @@ export default function Page() {
                     <div className="flex justify-center lg:justify-end lg:items-center lg:pl-5 h-[50vh] lg:h-full">
                         <div className="relative w-full max-w-xl lg:w-[700px] h-full">
                             <Image
-                                // 3. FIXED: Replaced the fake v123456789 URL with your actual uploaded image URL
                                 src={`${CLOUDINARY_BASE_URL}/v1786083076/advantage1_fpa9x9.jpg`}
                                 alt="Advantage Realty landscape design"
                                 fill
